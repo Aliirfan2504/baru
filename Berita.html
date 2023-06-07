@@ -1,0 +1,2310 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>&lt;no title&gt; &#8212; My sample book</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'Berita';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Notebooks with MyST Markdown" href="markdown-notebooks.html" />
+    <link rel="prev" title="&lt;no title&gt;" href="Pta.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+  
+
+<a class="navbar-brand logo" href="intro.html">
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/logo.png" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="_static/logo.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="intro.html">
+                    Welcome to your Jupyter Book
+                </a>
+            </li>
+        </ul>
+        <ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="markdown.html">Markdown Files</a></li>
+<li class="toctree-l1"><a class="reference internal" href="markdown-notebooks.html">Notebooks with MyST Markdown</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FBerita.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/Berita.ipynb" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.ipynb</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+<script>
+document.write(`
+  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  </button>
+`);
+</script>
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1><no title></h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="simple visible nav section-nav flex-column">
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <p>#Crawling Berita</p>
+<p>Nama : Mohammad Ali Irfan</p>
+<p>NIM  : 210411100113</p>
+<p>#Crawling kompas</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">requests</span>
+<span class="kn">from</span> <span class="nn">bs4</span> <span class="kn">import</span> <span class="n">BeautifulSoup</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="n">kompas</span><span class="o">=</span><span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;https://www.kompas.com/&#39;</span><span class="p">)</span>
+<span class="n">kompas</span><span class="o">.</span><span class="n">content</span>
+<span class="n">berita_list</span><span class="o">=</span><span class="p">[]</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">beautify</span><span class="o">=</span><span class="n">BeautifulSoup</span><span class="p">(</span><span class="n">kompas</span><span class="o">.</span><span class="n">content</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">beautify</span><span class="o">.</span><span class="n">find_all</span><span class="p">(</span><span class="s1">&#39;div&#39;</span><span class="p">,{</span><span class="s1">&#39;class&#39;</span><span class="p">,</span><span class="s1">&#39;col-bs10-7&#39;</span><span class="p">})</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&lt;div class=&quot;col-bs10-7&quot;&gt;
+ &lt;!-- headline--&gt;
+ &lt;div class=&quot;headline ga--headline clearfix&quot;&gt;
+ &lt;div class=&quot;headline__big clearfix&quot;&gt;
+ &lt;ul class=&quot;headline__big__row clearfix js-hl-big&quot;&gt;
+ &lt;li class=&quot;headline__big__item&quot;&gt;
+ &lt;a class=&quot;headline__big__link&quot; href=&quot;https://regional.kompas.com/read/2023/06/07/153354178/dansat-brimob-polda-riau-anggap-cerita-bripka-andry-soal-kompol-petrus&quot;&gt;
+ &lt;div class=&quot;headline__subtitle&quot;&gt;Headline&lt;/div&gt;
+ &lt;!-- &lt;div class=&quot;live__subtitle live__subtitle--hl&quot;&gt;Live Report&lt;/div&gt; --&gt;
+ &lt;div class=&quot;headline__big__img&quot;&gt;&lt;img alt=&quot;Dansat Brimob Polda Riau Anggap Cerita Bripka Andry soal Kompol Petrus Janggal&quot; src=&quot;https://asset.kompas.com/crops/DBDWikDCqpANheJlbmbiJ20exB4=/0x0:750x500/740x500/data/photo/2021/01/18/60051f09af824.jpg&quot;/&gt;&lt;/div&gt;
+ &lt;div class=&quot;headline__big__box&quot;&gt;
+ &lt;h1 class=&quot;headline__big__title&quot;&gt;Dansat Brimob Polda Riau Anggap Cerita Bripka Andry soal Kompol Petrus Janggal&lt;/h1&gt;
+ &lt;div class=&quot;headline__big__date&quot;&gt;07/06/2023, 15:33 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/a&gt;
+ &lt;/li&gt;
+ &lt;li class=&quot;headline__big__item&quot;&gt;
+ &lt;a class=&quot;headline__big__link&quot; href=&quot;https://megapolitan.kompas.com/read/2023/06/07/17300051/menagih-janji-pemprov-dki-usai-kalah-gugatan-polusi-udara-warga-jakarta-2&quot;&gt;
+ &lt;div class=&quot;headline__subtitle&quot;&gt;Headline&lt;/div&gt;
+ &lt;!-- &lt;div class=&quot;live__subtitle live__subtitle--hl&quot;&gt;Live Report&lt;/div&gt; --&gt;
+ &lt;div class=&quot;headline__big__img&quot;&gt;&lt;img alt=&quot;Menagih Janji Pemprov DKI Usai Kalah Gugatan Polusi Udara Warga Jakarta 2 Tahun Lalu&quot; src=&quot;https://asset.kompas.com/crops/shSA5evqP9mo1bHMgHh14EKxnns=/0x0:761x507/740x500/data/photo/2023/06/04/647c513d7cd99.png&quot;/&gt;&lt;/div&gt;
+ &lt;div class=&quot;headline__big__box&quot;&gt;
+ &lt;h2 class=&quot;headline__big__title&quot;&gt;Menagih Janji Pemprov DKI Usai Kalah Gugatan Polusi Udara Warga Jakarta 2 Tahun Lalu&lt;/h2&gt;
+ &lt;div class=&quot;headline__big__date&quot;&gt;07/06/2023, 17:30 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/a&gt;
+ &lt;/li&gt;
+ &lt;li class=&quot;headline__big__item&quot;&gt;
+ &lt;a class=&quot;headline__big__link&quot; href=&quot;https://nasional.kompas.com/read/2023/06/07/13590381/koalisi-perubahan-dinilai-telat-panas-tak-langsung-serang-jokowi-begitu&quot;&gt;
+ &lt;div class=&quot;headline__subtitle&quot;&gt;Headline&lt;/div&gt;
+ &lt;!-- &lt;div class=&quot;live__subtitle live__subtitle--hl&quot;&gt;Live Report&lt;/div&gt; --&gt;
+ &lt;div class=&quot;headline__big__img&quot;&gt;&lt;img alt=&quot;Koalisi Perubahan Dinilai Telat Panas, Tak Langsung &#39;Serang&#39; Jokowi Begitu Deklarasi Anies Capres&quot; src=&quot;https://asset.kompas.com/crops/iURGRjaj4jROdcH6UnD0ms96D6A=/0x0:0x0/740x500/data/photo/2022/11/11/636e140256898.jpg&quot;/&gt;&lt;/div&gt;
+ &lt;div class=&quot;headline__big__box&quot;&gt;
+ &lt;h2 class=&quot;headline__big__title&quot;&gt;Koalisi Perubahan Dinilai Telat Panas, Tak Langsung &quot;Serang&quot; Jokowi Begitu Deklarasi Anies Capres&lt;/h2&gt;
+ &lt;div class=&quot;headline__big__date&quot;&gt;07/06/2023, 13:59 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/a&gt;
+ &lt;/li&gt;
+ &lt;li class=&quot;headline__big__item&quot;&gt;
+ &lt;a class=&quot;headline__big__link&quot; href=&quot;https://regional.kompas.com/read/2023/06/07/171135078/fadiyah-siswi-smp-di-jambi-tak-akan-berhenti-cari-keadilan-untuk-nenek&quot;&gt;
+ &lt;div class=&quot;headline__subtitle&quot;&gt;Headline&lt;/div&gt;
+ &lt;!-- &lt;div class=&quot;live__subtitle live__subtitle--hl&quot;&gt;Live Report&lt;/div&gt; --&gt;
+ &lt;div class=&quot;headline__big__img&quot;&gt;&lt;img alt=&quot;Fadiyah, Siswi SMP di Jambi Tak Akan Berhenti Cari Keadilan untuk Nenek&quot; src=&quot;https://asset.kompas.com/crops/YKrKAnC7D5dkT73k_DOGqulXnQE=/39x0:1659x1080/740x500/data/photo/2023/06/06/647f095055561.jpg&quot;/&gt;&lt;/div&gt;
+ &lt;div class=&quot;headline__big__box&quot;&gt;
+ &lt;h2 class=&quot;headline__big__title&quot;&gt;Fadiyah, Siswi SMP di Jambi Tak Akan Berhenti Cari Keadilan untuk Nenek&lt;/h2&gt;
+ &lt;div class=&quot;headline__big__date&quot;&gt;07/06/2023, 17:11 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/a&gt;
+ &lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;headline__thumb clearfix&quot;&gt;
+ &lt;ul class=&quot;headline__thumb__row clearfix js-hl-thumb&quot;&gt;
+ &lt;li class=&quot;headline__thumb__item&quot;&gt;
+ &lt;div class=&quot;headline__thumb__img&quot;&gt;&lt;img alt=&quot;Dansat Brimob Polda Riau Anggap Cerita Bripka Andry soal Kompol Petrus Janggal&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/OEAUfOV5JUu0aPQtAJOGWmb76fY=/0x0:750x500/185x124/data/photo/2021/01/18/60051f09af824.jpg&quot;/&gt;&lt;/div&gt;
+ &lt;a class=&quot;headline__thumb__link&quot; href=&quot;https://regional.kompas.com/read/2023/06/07/153354178/dansat-brimob-polda-riau-anggap-cerita-bripka-andry-soal-kompol-petrus&quot;&gt;
+ &lt;h2 class=&quot;headline__thumb__title&quot;&gt;Dansat Brimob Polda Riau Anggap Cerita Bripka Andry soal Kompol Petrus Janggal&lt;/h2&gt;
+ &lt;/a&gt;
+ &lt;/li&gt;&lt;li class=&quot;headline__thumb__item&quot;&gt;
+ &lt;div class=&quot;headline__thumb__img&quot;&gt;&lt;img alt=&quot;Menagih Janji Pemprov DKI Usai Kalah Gugatan Polusi Udara Warga Jakarta 2 Tahun Lalu&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/ZpgVzl5S7fswbc8ExRVXVCit9lo=/0x0:761x507/185x124/data/photo/2023/06/04/647c513d7cd99.png&quot;/&gt;&lt;/div&gt;
+ &lt;a class=&quot;headline__thumb__link&quot; href=&quot;https://megapolitan.kompas.com/read/2023/06/07/17300051/menagih-janji-pemprov-dki-usai-kalah-gugatan-polusi-udara-warga-jakarta-2&quot;&gt;
+ &lt;h2 class=&quot;headline__thumb__title&quot;&gt;Menagih Janji Pemprov DKI Usai Kalah Gugatan Polusi Udara Warga Jakarta 2 Tahun Lalu&lt;/h2&gt;
+ &lt;/a&gt;
+ &lt;/li&gt;&lt;li class=&quot;headline__thumb__item&quot;&gt;
+ &lt;div class=&quot;headline__thumb__img&quot;&gt;&lt;img alt=&quot;Koalisi Perubahan Dinilai Telat Panas, Tak Langsung &#39;Serang&#39; Jokowi Begitu Deklarasi Anies Capres&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/I_mNuQ7WReB1U58cOFC0ElT96zM=/0x0:0x0/185x124/data/photo/2022/11/11/636e140256898.jpg&quot;/&gt;&lt;/div&gt;
+ &lt;a class=&quot;headline__thumb__link&quot; href=&quot;https://nasional.kompas.com/read/2023/06/07/13590381/koalisi-perubahan-dinilai-telat-panas-tak-langsung-serang-jokowi-begitu&quot;&gt;
+ &lt;h2 class=&quot;headline__thumb__title&quot;&gt;Koalisi Perubahan Dinilai Telat Panas, Tak Langsung &quot;Serang&quot; Jokowi Begitu Deklarasi Anies Capres&lt;/h2&gt;
+ &lt;/a&gt;
+ &lt;/li&gt;&lt;li class=&quot;headline__thumb__item&quot;&gt;
+ &lt;div class=&quot;headline__thumb__img&quot;&gt;&lt;img alt=&quot;Fadiyah, Siswi SMP di Jambi Tak Akan Berhenti Cari Keadilan untuk Nenek&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/PGTr5k2sfPGaufgzGa54hd5dDqY=/39x0:1659x1080/185x124/data/photo/2023/06/06/647f095055561.jpg&quot;/&gt;&lt;/div&gt;
+ &lt;a class=&quot;headline__thumb__link&quot; href=&quot;https://regional.kompas.com/read/2023/06/07/171135078/fadiyah-siswi-smp-di-jambi-tak-akan-berhenti-cari-keadilan-untuk-nenek&quot;&gt;
+ &lt;h2 class=&quot;headline__thumb__title&quot;&gt;Fadiyah, Siswi SMP di Jambi Tak Akan Berhenti Cari Keadilan untuk Nenek&lt;/h2&gt;
+ &lt;/a&gt;
+ &lt;/li&gt; &lt;/ul&gt;
+ &lt;/div&gt;
+ &lt;/div&gt; &lt;div class=&quot;overlay-desktop&quot;&gt;
+ &lt;div id=&quot;div-gpt-ad-712092287234656005-oop&quot;&gt;
+ &lt;script type=&quot;text/javascript&quot;&gt;
+         googletag.cmd.push(function() { googletag.display(&#39;div-gpt-ad-712092287234656005-oop&#39;);});
+     &lt;/script&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;,
+ &lt;div class=&quot;col-bs10-7&quot;&gt;
+ &lt;!-- hightlight--&gt;
+ &lt;div class=&quot;title clearfix&quot;&gt;
+ &lt;h2 class=&quot;title__content&quot;&gt;Sorotan&lt;/h2&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;highlight ga--highlight mt2 clearfix&quot;&gt;
+ &lt;div class=&quot;row article__grid col-offset-fluid clearfix&quot;&gt;
+ &lt;div class=&quot;col-bs9-3&quot;&gt;
+ &lt;div class=&quot;article__grid&quot;&gt;
+ &lt;div class=&quot;article__boxsubtitle&quot;&gt;
+ &lt;div class=&quot;article__subtitle&quot;&gt;
+                                 BOLA                            &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;
+ &lt;a href=&quot;https://www.kompas.com/sports/read/2023/06/07/17384798/perjuangan-kapten-voli-duduk-putri-apg-2023-tinggalkan-anak-yang-baru&quot;&gt;&lt;img alt=&quot;Perjuangan Kapten Voli Duduk Putri APG 2023: Tinggalkan Anak yang Baru Lahir demi Emas&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/55xxPro31WxSOLPosWmYN8c_Igc=/7x0:1507x1000/230x153/data/photo/2023/06/07/64805c3cdf9ca.jpg&quot;/&gt;&lt;/a&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__box&quot;&gt;
+ &lt;h3 class=&quot;article__title&quot;&gt;
+ &lt;a class=&quot;article__link&quot; href=&quot;https://www.kompas.com/sports/read/2023/06/07/17384798/perjuangan-kapten-voli-duduk-putri-apg-2023-tinggalkan-anak-yang-baru&quot;&gt;Perjuangan Kapten Voli Duduk Putri APG 2023: Tinggalkan Anak yang Baru Lahir demi Emas&lt;/a&gt;
+ &lt;/h3&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;&lt;div class=&quot;col-bs9-3&quot;&gt;
+ &lt;div class=&quot;article__grid&quot;&gt;
+ &lt;div class=&quot;article__boxsubtitle&quot;&gt;
+ &lt;div class=&quot;article__subtitle&quot;&gt;
+                                 TREN                            &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;
+ &lt;a href=&quot;https://www.kompas.com/tren/read/2023/06/07/154500365/sosok-putri-ariani-penyanyi-indonesia-yang-pukau-juri-di-america-s-got&quot;&gt;&lt;img alt=&quot;Sosok Putri Ariani, Penyanyi Indonesia yang Pukau Juri di America&#39;s Got Talent&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/w8JCcdSir4jc6b-cftCx10msgTM=/134x18:1112x671/230x153/data/photo/2023/06/07/648006bdd946a.jpg&quot;/&gt;&lt;/a&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__box&quot;&gt;
+ &lt;h3 class=&quot;article__title&quot;&gt;
+ &lt;a class=&quot;article__link&quot; href=&quot;https://www.kompas.com/tren/read/2023/06/07/154500365/sosok-putri-ariani-penyanyi-indonesia-yang-pukau-juri-di-america-s-got&quot;&gt;Sosok Putri Ariani, Penyanyi Indonesia yang Pukau Juri di America&#39;s Got Talent&lt;/a&gt;
+ &lt;/h3&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;&lt;div class=&quot;col-bs9-3&quot;&gt;
+ &lt;div id=&quot;div-gpt-ad-712092287234656005-333&quot;&gt;
+ &lt;script type=&quot;text/javascript&quot;&gt;
+ 		googletag.cmd.push(function() { googletag.display(&#39;div-gpt-ad-712092287234656005-333&#39;);});
+ 	&lt;/script&gt;
+ &lt;/div&gt;
+ &lt;/div&gt; &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;title clearfix&quot;&gt;
+ &lt;h2 class=&quot;title__content&quot;&gt;Berita Terkini&lt;/h2&gt;
+ &lt;a class=&quot;button button--default button--title pull-right&quot; href=&quot;http://indeks.kompas.com/&quot;&gt;Lihat Semua&lt;/a&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;latest ga--latest mt2 clearfix&quot;&gt;
+ &lt;div class=&quot;kcm__articleList&quot;&gt;
+ &lt;div id=&quot;div-gpt-ad-articlehighlight&quot;&gt;
+ &lt;script&gt;
+ googletag.cmd.push(function() { googletag.display(&#39;div-gpt-ad-articlehighlight&#39;); });
+ &lt;/script&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://regional.kompas.com/read/2023/06/07/191809278/seluruh-pekerja-tempat-cuci-mobil-di-salatiga-tuna-rungu-wicara-ini&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Seluruh Pekerja Tempat Cuci Mobil di Salatiga Tuna Rungu Wicara, Ini Penjelasan Pemilik&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/viU2nrSNvwbkjh6o7tppP5xKtYs=/0x0:0x0/177x117/data/photo/2023/06/07/648042a74659a.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://regional.kompas.com/read/2023/06/07/191809278/seluruh-pekerja-tempat-cuci-mobil-di-salatiga-tuna-rungu-wicara-ini&quot; target=&quot;_parent&quot;&gt;Seluruh Pekerja Tempat Cuci Mobil di Salatiga Tuna Rungu Wicara, Ini Penjelasan Pemilik&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;REGIONAL&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:18 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://umkm.kompas.com/read/2023/06/07/191800483/serba-serbi-cerita-makeup-artist-profesi-yang-belakangan-makin-digandrungi&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Serba-serbi Cerita &#39;Makeup Artist&#39;, Profesi yang Belakangan Makin Digandrungi&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/QDR1xaRGbEsq1E5_nd8cuo5m3k8=/0x101:1205x904/177x117/data/photo/2023/06/07/64805aec83de3.jpeg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://umkm.kompas.com/read/2023/06/07/191800483/serba-serbi-cerita-makeup-artist-profesi-yang-belakangan-makin-digandrungi&quot; target=&quot;_parent&quot;&gt;Serba-serbi Cerita &quot;Makeup Artist&quot;, Profesi yang Belakangan Makin Digandrungi&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;UMKM&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:18 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://regional.kompas.com/read/2023/06/07/191800778/kencan-ditolak-pria-di-riau-sebar-foto-tak-senonoh-teman-wanita-di-medsos&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Kencan Ditolak, Pria di Riau Sebar Foto Tak Senonoh Teman Wanita di Medsos&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/hYNuuMU3Y9nkHs5ZMbJ5ejUswEQ=/70x0:1142x715/177x117/data/photo/2020/01/11/5e1997325b174.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://regional.kompas.com/read/2023/06/07/191800778/kencan-ditolak-pria-di-riau-sebar-foto-tak-senonoh-teman-wanita-di-medsos&quot; target=&quot;_parent&quot;&gt;Kencan Ditolak, Pria di Riau Sebar Foto Tak Senonoh Teman Wanita di Medsos&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;REGIONAL&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:18 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://megapolitan.kompas.com/read/2023/06/07/19173421/warga-lihat-kepulan-asap-putih-sebelum-api-sambar-kabel-optik-di&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Warga Lihat Kepulan Asap Putih Sebelum Api Sambar Kabel Optik di Jatinegara&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/_PDz5HY_c7Z26tNIh9sbNcLak24=/0x0:0x0/177x117/data/photo/2023/06/07/64806531e39b9.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://megapolitan.kompas.com/read/2023/06/07/19173421/warga-lihat-kepulan-asap-putih-sebelum-api-sambar-kabel-optik-di&quot; target=&quot;_parent&quot;&gt;Warga Lihat Kepulan Asap Putih Sebelum Api Sambar Kabel Optik di Jatinegara&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;NEWS&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:17 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://app.komp.as/?link=https://www.kompas.id/baca/metro/2023/06/07/transjakarta-kaji-layanan-ke-bandara-soetta?apn=id.kompas.app&amp;amp;isi=1242195037&amp;amp;ibi=id.kompas.app&amp;amp;utm_source=external_kompascom&amp;amp;utm_medium=berita_terkini&amp;amp;utm_campaign=kompascom&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Transjakarta Kaji Layanan ke Bandara Soetta&quot; class=&quot;lozad&quot; data-src=&quot;https://dmm0a91a1r04e.cloudfront.net/RrJJ0EuzRhIlwNJpBfsByYGeZBk=/300x169/https%3A%2F%2Fasset.kgnewsroom.com%2Fphoto%2Fpre%2F2023%2F06%2F07%2Feb47ca4f-92b1-4ab3-a095-8ebc5f7d3781_jpg.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://app.komp.as/?link=https://www.kompas.id/baca/metro/2023/06/07/transjakarta-kaji-layanan-ke-bandara-soetta?apn=id.kompas.app&amp;amp;isi=1242195037&amp;amp;ibi=id.kompas.app&amp;amp;utm_source=external_kompascom&amp;amp;utm_medium=berita_terkini&amp;amp;utm_campaign=kompascom&quot; target=&quot;_parent&quot;&gt;Transjakarta Kaji Layanan ke Bandara Soetta&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline color--premium&quot;&gt;KOMPAS.ID PREMIUM&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 18:18 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;!-- kgnow terkini --&gt;
+ &lt;div class=&quot;kgnowGate&quot;&gt;
+ &lt;div class=&quot;latest kgnowGate clearfix&quot;&gt;
+ &lt;div class=&quot;article__list article__list--video clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;iframe frameborder=&quot;0&quot; height=&quot;274&quot; id=&quot;rVideo-embed-wp-3&quot; scrolling=&quot;no&quot; src=&quot;https://www.kgnow.com/embed/639954?autoplay=wifi&amp;amp;accountid=9262bf2590d558736cac4fff7978fcb1&amp;amp;customid=WP_TERKINI_PLAYER_1&amp;amp;utm_source=KOMPASCOM&amp;amp;position=wp_terkini__player_1&amp;amp;domain_referral=kompascom&quot; title=&quot;Serma Riadi Kembali Bawa Senyuman ke Anak-anak Buru Selatan&quot; width=&quot;100%&quot;&gt;
+ &lt;/iframe&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__box&quot;&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;
+ &lt;a class=&quot;article__link&quot; href=&quot;https://www.kgnow.com/watch/639954/serma-riadi-kembali-bawa-senyuman-ke-anak-anak-buru-selatan?utm_source=KOMPASCOM&amp;amp;position=wp_terkini__carousel_player_1&quot; target=&quot;_blank&quot;&gt;Serma Riadi Kembali Bawa Senyuman ke Anak-anak Buru Selatan&lt;/a&gt;
+ &lt;/h3&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__date&quot;&gt;39 menit lalu&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;videoKGSlider&quot;&gt;
+ &lt;div class=&quot;videoKGSlider-wrap js-videoKGSlider&quot;&gt;
+ &lt;div class=&quot;videoKG-item clearfix&quot;&gt;
+ &lt;a href=&quot;https://www.kgnow.com/watch/639787/ini-tanggapan-ahy-soal-namanya-masuk-dalam-daftar-cawapres-ganjar?utm_source=KOMPASCOM&amp;amp;position=wp_terkini__carousel_player_1&quot; target=&quot;_blank&quot;&gt;
+ &lt;div class=&quot;videoKG-image&quot;&gt;
+ &lt;div class=&quot;videoKG-duration&quot;&gt;
+                                 02:19                            &lt;/div&gt;
+ &lt;img alt=&quot;Ini Tanggapan AHY soal Namanya Masuk dalam Daftar Cawapres Ganjar&quot; class=&quot;lozad&quot; data-src=&quot;https://assets-studiohub.kompas.com/video2019/73f614858444241bddf143/cc8fbec1f1ac438a4cae68d290f0d75a/cc8fbec1f1ac438a4cae68d290f0d75a.jpg&quot;/&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;videoKG-title&quot;&gt;Ini Tanggapan AHY soal Namanya Masuk dalam Daftar Cawapres Ganjar&lt;/div&gt;
+ &lt;div class=&quot;videoKG-info&quot;&gt;
+ &lt;div class=&quot;videoKG-subtitle color--kgnow&quot;&gt;
+ &lt;span&gt;KGNow!&lt;/span&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;videoKG-date&quot;&gt;52 menit lalu&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/a&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;videoKG-item clearfix&quot;&gt;
+ &lt;a href=&quot;https://www.kgnow.com/watch/639733/rihana-dan-rihani-si-kembar-yang-lakukan-penipuan-pre-order-iphone-hingga-miliaran-rupiah?utm_source=KOMPASCOM&amp;amp;position=wp_terkini__carousel_player_1&quot; target=&quot;_blank&quot;&gt;
+ &lt;div class=&quot;videoKG-image&quot;&gt;
+ &lt;div class=&quot;videoKG-duration&quot;&gt;
+                                 01:37                            &lt;/div&gt;
+ &lt;img alt=&quot;Rihana dan Rihani, Si Kembar yang Lakukan Penipuan Pre Order Iphone Hingga Miliaran Rupiah&quot; class=&quot;lozad&quot; data-src=&quot;https://assets-studiohub.kompas.com/video2019/73f614858444241bddf143/1379028f374b7ab243b4af96061ce2e3/1379028f374b7ab243b4af96061ce2e3.jpg&quot;/&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;videoKG-title&quot;&gt;Rihana dan Rihani, Si Kembar yang Lakukan Penipuan Pre Order Iphone Hingga Miliaran Rupiah&lt;/div&gt;
+ &lt;div class=&quot;videoKG-info&quot;&gt;
+ &lt;div class=&quot;videoKG-subtitle color--kgnow&quot;&gt;
+ &lt;span&gt;KGNow!&lt;/span&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;videoKG-date&quot;&gt;1 jam lalu&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/a&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;videoKG-item clearfix&quot;&gt;
+ &lt;a href=&quot;https://www.kgnow.com/watch/639728/respons-puan-maharani-soal-baliho-kaesang-di-depok?utm_source=KOMPASCOM&amp;amp;position=wp_terkini__carousel_player_1&quot; target=&quot;_blank&quot;&gt;
+ &lt;div class=&quot;videoKG-image&quot;&gt;
+ &lt;div class=&quot;videoKG-duration&quot;&gt;
+                                 02:06                            &lt;/div&gt;
+ &lt;img alt=&quot;Respons Puan Maharani soal Baliho Kaesang di Depok&quot; class=&quot;lozad&quot; data-src=&quot;https://assets-studiohub.kompas.com/video2019/73f614858444241bddf143/e596cfa839b12d90dd3c1d2b9ae2ab47/e596cfa839b12d90dd3c1d2b9ae2ab47.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;videoKG-title&quot;&gt;Respons Puan Maharani soal Baliho Kaesang di Depok&lt;/div&gt;
+ &lt;div class=&quot;videoKG-info&quot;&gt;
+ &lt;div class=&quot;videoKG-subtitle color--kgnow&quot;&gt;
+ &lt;span&gt;KGNow!&lt;/span&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;videoKG-date&quot;&gt;1 jam lalu&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/a&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;videoKG-item clearfix&quot;&gt;
+ &lt;a href=&quot;https://www.kgnow.com/watch/639722/pdi-p-puji-ganjar-sebagai-capres-pemberani-dalam-suarakan-pandangan-politik-luar-negeri?utm_source=KOMPASCOM&amp;amp;position=wp_terkini__carousel_player_1&quot; target=&quot;_blank&quot;&gt;
+ &lt;div class=&quot;videoKG-image&quot;&gt;
+ &lt;div class=&quot;videoKG-duration&quot;&gt;
+                                 03:00                            &lt;/div&gt;
+ &lt;img alt=&quot;PDI-P Puji Ganjar sebagai Capres Pemberani dalam Suarakan Pandangan Politik Luar Negeri&quot; class=&quot;lozad&quot; data-src=&quot;https://assets-studiohub.kompas.com/video2019/73f614858444241bddf143/f0afa9077fb706363c1776bca17d93ef/f0afa9077fb706363c1776bca17d93ef.jpg&quot;/&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;videoKG-title&quot;&gt;PDI-P Puji Ganjar sebagai Capres Pemberani dalam Suarakan Pandangan Politik Luar Negeri&lt;/div&gt;
+ &lt;div class=&quot;videoKG-info&quot;&gt;
+ &lt;div class=&quot;videoKG-subtitle color--kgnow&quot;&gt;
+ &lt;span&gt;KGNow!&lt;/span&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;videoKG-date&quot;&gt;2 jam lalu&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/a&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;videoKG-item clearfix&quot;&gt;
+ &lt;a href=&quot;https://www.kgnow.com/watch/639723/jokowi-ajak-pengusaha-singapura-investasi-di-indonesia?utm_source=KOMPASCOM&amp;amp;position=wp_terkini__carousel_player_1&quot; target=&quot;_blank&quot;&gt;
+ &lt;div class=&quot;videoKG-image&quot;&gt;
+ &lt;div class=&quot;videoKG-duration&quot;&gt;
+                                 02:29                            &lt;/div&gt;
+ &lt;img alt=&quot;Jokowi Ajak Pengusaha Singapura Investasi di Indonesia&quot; class=&quot;lozad&quot; data-src=&quot;https://assets-studiohub.kompas.com/video2019/73f614858444241bddf143/0901aa7d432c033c646fb5b55fa791e4/0901aa7d432c033c646fb5b55fa791e4.jpg&quot;/&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;videoKG-title&quot;&gt;Jokowi Ajak Pengusaha Singapura Investasi di Indonesia&lt;/div&gt;
+ &lt;div class=&quot;videoKG-info&quot;&gt;
+ &lt;div class=&quot;videoKG-subtitle color--kgnow&quot;&gt;
+ &lt;span&gt;KGNow!&lt;/span&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;videoKG-date&quot;&gt;2 jam lalu&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/a&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;videoKG-item clearfix&quot;&gt;
+ &lt;a href=&quot;https://www.kgnow.com/watch/639720/kemenhan-ajukan-anggaran-pertahanan-rp-350-t-untuk-2024?utm_source=KOMPASCOM&amp;amp;position=wp_terkini__carousel_player_1&quot; target=&quot;_blank&quot;&gt;
+ &lt;div class=&quot;videoKG-image&quot;&gt;
+ &lt;div class=&quot;videoKG-duration&quot;&gt;
+                                 02:15                            &lt;/div&gt;
+ &lt;img alt=&quot;Kemenhan Ajukan Anggaran Pertahanan Rp 350 T untuk 2024&quot; class=&quot;lozad&quot; data-src=&quot;https://assets-studiohub.kompas.com/video2019/73f614858444241bddf143/3dae677ca98f98670849338a25b1ca1f/3dae677ca98f98670849338a25b1ca1f.jpg&quot;/&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;videoKG-title&quot;&gt;Kemenhan Ajukan Anggaran Pertahanan Rp 350 T untuk 2024&lt;/div&gt;
+ &lt;div class=&quot;videoKG-info&quot;&gt;
+ &lt;div class=&quot;videoKG-subtitle color--kgnow&quot;&gt;
+ &lt;span&gt;KGNow!&lt;/span&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;videoKG-date&quot;&gt;2 jam lalu&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/a&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;videoKG-item clearfix&quot;&gt;
+ &lt;a href=&quot;https://www.kgnow.com/watch/639721/anies-dinilai-bukan-wajah-utama-oposisi-butuh-cawapres-yang-lebih-kuat?utm_source=KOMPASCOM&amp;amp;position=wp_terkini__carousel_player_1&quot; target=&quot;_blank&quot;&gt;
+ &lt;div class=&quot;videoKG-image&quot;&gt;
+ &lt;div class=&quot;videoKG-duration&quot;&gt;
+                                 02:22                            &lt;/div&gt;
+ &lt;img alt=&quot;Anies Dinilai Bukan Wajah Utama Oposisi, Butuh Cawapres yang Lebih Kuat&quot; class=&quot;lozad&quot; data-src=&quot;https://assets-studiohub.kompas.com/video2019/73f614858444241bddf143/52ea609915cc111d7ff32a3587c0e3bf/52ea609915cc111d7ff32a3587c0e3bf.jpg&quot;/&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;videoKG-title&quot;&gt;Anies Dinilai Bukan Wajah Utama Oposisi, Butuh Cawapres yang Lebih Kuat&lt;/div&gt;
+ &lt;div class=&quot;videoKG-info&quot;&gt;
+ &lt;div class=&quot;videoKG-subtitle color--kgnow&quot;&gt;
+ &lt;span&gt;KGNow!&lt;/span&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;videoKG-date&quot;&gt;2 jam lalu&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/a&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;!-- (ads.after.video) --&gt;
+ &lt;div class=&quot;latest ga--latest mt2 clearfix&quot;&gt;
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://www.kompas.com/hype/read/2023/06/07/191613466/mengenal-difki-khalif-sepupu-ariel-noah-yang-kini-berkarya-di-industri&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Mengenal Difki Khalif, Sepupu Ariel NOAH yang Kini Berkarya di Industri Musik&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/EcCFvRjhSpZ4SX98zz1j2ccd2eQ=/0x0:0x0/177x117/data/photo/2023/06/07/648070a1d8264.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://www.kompas.com/hype/read/2023/06/07/191613466/mengenal-difki-khalif-sepupu-ariel-noah-yang-kini-berkarya-di-industri&quot; target=&quot;_parent&quot;&gt;Mengenal Difki Khalif, Sepupu Ariel NOAH yang Kini Berkarya di Industri Musik&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;HYPE&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:16 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://www.kompas.com/tren/read/2023/06/07/191500865/5-kebiasaan-yang-membuat-anda-sulit-tidur-di-malam-hari&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;5 Kebiasaan yang Membuat Anda Sulit Tidur di Malam Hari&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/HtbzrpdONXXePd52LMbztXbmvh8=/2x2:1098x732/177x117/data/photo/2023/05/02/6450d2d1c0638.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://www.kompas.com/tren/read/2023/06/07/191500865/5-kebiasaan-yang-membuat-anda-sulit-tidur-di-malam-hari&quot; target=&quot;_parent&quot;&gt;5 Kebiasaan yang Membuat Anda Sulit Tidur di Malam Hari&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;TREN&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:15 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://megapolitan.kompas.com/read/2023/06/07/19131801/trotoar-di-depan-gedung-kedubes-as-akan-dibuka-secepatnya&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Trotoar di Depan Gedung Kedubes AS Akan Dibuka Secepatnya&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/ZJG_dhSIRLtRb-TwQ0zdST3LyWU=/0x0:0x0/177x117/data/photo/2023/06/06/647eecd54d6a5.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://megapolitan.kompas.com/read/2023/06/07/19131801/trotoar-di-depan-gedung-kedubes-as-akan-dibuka-secepatnya&quot; target=&quot;_parent&quot;&gt;Trotoar di Depan Gedung Kedubes AS Akan Dibuka Secepatnya&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;NEWS&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:13 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://www.kompas.com/edu/read/2023/06/07/191300471/tambah-4-kini-umy-punya-22-guru-besar&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Tambah 4, Kini UMY Punya 22 Guru Besar&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/1ms1s8A0Pg6zv_3Pk577u8UzLzY=/134x115:1040x719/177x117/data/photo/2021/07/24/60fbe87725449.jpeg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://www.kompas.com/edu/read/2023/06/07/191300471/tambah-4-kini-umy-punya-22-guru-besar&quot; target=&quot;_parent&quot;&gt;Tambah 4, Kini UMY Punya 22 Guru Besar&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;EDUKASI&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:13 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://www.kompas.com/hype/read/2023/06/07/191149266/heidi-klum-unggah-video-penampilan-putri-ariani-di-twitter&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Heidi Klum Unggah Video Penampilan Putri Ariani di Twitter&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/RZBFibfhjlVD2Ia5RDoCK5ASv9g=/134x18:1112x671/177x117/data/photo/2023/06/07/648006bdd946a.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://www.kompas.com/hype/read/2023/06/07/191149266/heidi-klum-unggah-video-penampilan-putri-ariani-di-twitter&quot; target=&quot;_parent&quot;&gt;Heidi Klum Unggah Video Penampilan Putri Ariani di Twitter&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;HYPE&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:11 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://www.kompas.com/homey/read/2023/06/07/191000476/pemutih-bisa-kedaluwarsa-ini-tanda-tandanya&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Pemutih Bisa Kedaluwarsa, Ini Tanda-tandanya&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/C1cliQxA5j5GlOq-Gk2Mb-wOEZM=/100x161:900x694/177x117/data/photo/2022/07/09/62c9652cbbda3.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://www.kompas.com/homey/read/2023/06/07/191000476/pemutih-bisa-kedaluwarsa-ini-tanda-tandanya&quot; target=&quot;_parent&quot;&gt;Pemutih Bisa Kedaluwarsa, Ini Tanda-tandanya&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;HOMEY&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:10 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://money.kompas.com/read/2023/06/07/191000126/mandiri-sekuritas-pertahankan-target-ihsg-tahun-ini-di-level-7.510&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Mandiri Sekuritas Pertahankan Target IHSG Tahun Ini di Level 7.510&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/ZrBjP-xJmGEvNNuw4GkGp-Dy6TI=/4x54:1280x905/177x117/data/photo/2023/02/20/63f33601c1ff2.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://money.kompas.com/read/2023/06/07/191000126/mandiri-sekuritas-pertahankan-target-ihsg-tahun-ini-di-level-7.510&quot; target=&quot;_parent&quot;&gt;Mandiri Sekuritas Pertahankan Target IHSG Tahun Ini di Level 7.510&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;MONEY&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:10 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;,
+ &lt;div class=&quot;col-bs10-7&quot;&gt;
+ &lt;div class=&quot;title clearfix&quot;&gt;
+ &lt;h2 class=&quot;title__content&quot;&gt;Berita Terkini&lt;/h2&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;latest ga--latest mt2 clearfix&quot;&gt;
+ &lt;!-- (ads.gate.latest) --&gt;
+ &lt;!-- (ads.gate.2.latest) --&gt;
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://lifestyle.kompas.com/read/2023/06/07/191000920/7-tips-penting-agar-berhubungan-seks-saat-menstruasi-lebih-nyaman&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;7 Tips Penting agar Berhubungan Seks saat Menstruasi Lebih Nyaman&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/fImy5Pfu4BR1I1mzkzzkmsaUtpo=/36x0:912x584/177x117/data/photo/2023/05/29/64747caccdc45.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://lifestyle.kompas.com/read/2023/06/07/191000920/7-tips-penting-agar-berhubungan-seks-saat-menstruasi-lebih-nyaman&quot; target=&quot;_parent&quot;&gt;7 Tips Penting agar Berhubungan Seks saat Menstruasi Lebih Nyaman&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;LIFESTYLE&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:10 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://megapolitan.kompas.com/read/2023/06/07/19065641/sebut-kemacetan-di-condet-tak-parah-lurah-arus-lalin-padat-merayap-tidak&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Sebut Kemacetan di Condet Tak Parah, Lurah: Arus Lalin Padat Merayap, Tidak Menumpuk&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/MpxR0zpsua3euEwBTzy5QZpwm1A=/0x0:0x0/177x117/data/photo/2023/06/07/6480616f066cf.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://megapolitan.kompas.com/read/2023/06/07/19065641/sebut-kemacetan-di-condet-tak-parah-lurah-arus-lalin-padat-merayap-tidak&quot; target=&quot;_parent&quot;&gt;Sebut Kemacetan di Condet Tak Parah, Lurah: Arus Lalin Padat Merayap, Tidak Menumpuk&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;NEWS&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:06 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://regional.kompas.com/read/2023/06/07/190630378/kisah-romo-katolik-lulus-s3-di-uin-sunan-kalijaga-yogyakarta-sempat-ragu&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Kisah Romo Katolik Lulus S3 di UIN Sunan Kalijaga Yogyakarta, Sempat Ragu Kuliah di Universitas Islam&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/Yz3fz1XbyAn2Mu20MJqizC6nDxg=/0x0:0x0/177x117/data/photo/2023/06/07/648069674fe66.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://regional.kompas.com/read/2023/06/07/190630378/kisah-romo-katolik-lulus-s3-di-uin-sunan-kalijaga-yogyakarta-sempat-ragu&quot; target=&quot;_parent&quot;&gt;Kisah Romo Katolik Lulus S3 di UIN Sunan Kalijaga Yogyakarta, Sempat Ragu Kuliah di Universitas Islam&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;REGIONAL&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:06 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://nasional.kompas.com/read/2023/06/07/19051861/masa-jabatan-pimpinan-kpk-diperpanjang-firli-bahuri-putusan-mk-adalah-undang&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Masa Jabatan Pimpinan KPK Diperpanjang, Firli Bahuri: Putusan MK adalah Undang-Undang&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/EDWpYg3YLz4Yjh9hWm8Ao0t8MLg=/0x0:0x0/177x117/data/photo/2023/06/07/648063ece765e.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://nasional.kompas.com/read/2023/06/07/19051861/masa-jabatan-pimpinan-kpk-diperpanjang-firli-bahuri-putusan-mk-adalah-undang&quot; target=&quot;_parent&quot;&gt;Masa Jabatan Pimpinan KPK Diperpanjang, Firli Bahuri: Putusan MK adalah Undang-Undang&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;NEWS&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:05 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://nasional.kompas.com/read/2023/06/07/19045641/polri-tidak-ada-aturan-bawahan-harus-setoran-uang-ke-atasan&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Polri: Tidak Ada Aturan Bawahan Harus Setoran Uang ke Atasan&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/ZaYDD4VSiml9kD5hKiT_hDR7TPY=/0x0:0x0/177x117/data/photo/2023/06/07/64803efecf474.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://nasional.kompas.com/read/2023/06/07/19045641/polri-tidak-ada-aturan-bawahan-harus-setoran-uang-ke-atasan&quot; target=&quot;_parent&quot;&gt;Polri: Tidak Ada Aturan Bawahan Harus Setoran Uang ke Atasan&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;NEWS&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:04 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://medan.kompas.com/read/2023/06/07/190439878/terlibat-jaringan-kurir-sabu-bersama-oknum-anggota-tni-2-warga-kalbar-divonis&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Terlibat Jaringan Kurir Sabu Bersama Oknum Anggota TNI, 2 Warga Kalbar Divonis Mati&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/9juIbSmouEwpgwIPvWo3Tb_mDH0=/0x0:0x0/177x117/data/photo/2023/06/07/6480700821a5d.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://medan.kompas.com/read/2023/06/07/190439878/terlibat-jaringan-kurir-sabu-bersama-oknum-anggota-tni-2-warga-kalbar-divonis&quot; target=&quot;_parent&quot;&gt;Terlibat Jaringan Kurir Sabu Bersama Oknum Anggota TNI, 2 Warga Kalbar Divonis Mati&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;REGIONAL&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:04 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://app.komp.as/?link=https://www.kompas.id/baca/gaya-hidup/2023/06/07/toyota-memanggil-kembali-veloz-avanza-dan-raize-karena-masalah-di-airbag?apn=id.kompas.app&amp;amp;isi=1242195037&amp;amp;ibi=id.kompas.app&amp;amp;utm_source=external_kompascom&amp;amp;utm_medium=berita_terkini&amp;amp;utm_campaign=kompascom&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Toyota Panggil Kembali Veloz, Avanza, dan Raize karena Masalah di ”Airbag”&quot; class=&quot;lozad&quot; data-src=&quot;https://dmm0a91a1r04e.cloudfront.net/W_2GT6fXSCNj0Z_ksMiIxEeG5Es=/300x169/https%3A%2F%2Fasset.kgnewsroom.com%2Fphoto%2Fpre%2F2023%2F06%2F07%2F9a88d9fc-fa21-4efd-aab0-e06edc1f32cc_jpg.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://app.komp.as/?link=https://www.kompas.id/baca/gaya-hidup/2023/06/07/toyota-memanggil-kembali-veloz-avanza-dan-raize-karena-masalah-di-airbag?apn=id.kompas.app&amp;amp;isi=1242195037&amp;amp;ibi=id.kompas.app&amp;amp;utm_source=external_kompascom&amp;amp;utm_medium=berita_terkini&amp;amp;utm_campaign=kompascom&quot; target=&quot;_parent&quot;&gt;Toyota Panggil Kembali Veloz, Avanza, dan Raize karena Masalah di ”Airbag”&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline color--premium&quot;&gt;KOMPAS.ID PREMIUM&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 16:53 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;!-- video kgnow --&gt;
+ &lt;div class=&quot;latest kgnowGate clearfix&quot;&gt;
+ &lt;div class=&quot;article__list article__list--video clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;iframe frameborder=&quot;0&quot; height=&quot;274&quot; id=&quot;rVideo-embed-wp-3&quot; scrolling=&quot;no&quot; src=&quot;https://www.kgnow.com/embed/639556?accountid=9262bf2590d558736cac4fff7978fcb1&amp;amp;customid=WP_TERKINI_PLAYER_2&amp;amp;utm_source=KOMPASCOM&amp;amp;position=wp_terkini__player_2&amp;amp;domain_referral=kompascom&quot; title=&quot;Respons Menteri PUPR Basuki Hadimuljono Masuk Daftar Cawapres Ganjar&quot; width=&quot;100%&quot;&gt;
+ &lt;/iframe&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__box&quot;&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;
+ &lt;a class=&quot;article__link&quot; href=&quot;https://www.kgnow.com/watch/639556/respons-menteri-pupr-basuki-hadimuljono-masuk-daftar-cawapres-ganjar?utm_source=KOMPASCOM&amp;amp;position=wp_terkini__player_2&quot;&gt;Respons Menteri PUPR Basuki Hadimuljono Masuk Daftar Cawapres Ganjar&lt;/a&gt;
+ &lt;/h3&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__date&quot;&gt;01:25&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;latest ga--latest mt2 clearfix&quot;&gt;
+ &lt;!-- (ads.gate.4.latest) --&gt;
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://regional.kompas.com/read/2023/06/07/190431278/diburu-warga-lokal-kakaktua-jambul-kuning-di-pulau-moyo-sumbawa-terancam&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Diburu Warga Lokal, Kakaktua Jambul Kuning di Pulau Moyo Sumbawa Terancam Punah&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/Vqz_qL53py78TPTh_6mvefYbYE0=/0x0:0x0/177x117/data/photo/2023/06/07/64806497889ad.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://regional.kompas.com/read/2023/06/07/190431278/diburu-warga-lokal-kakaktua-jambul-kuning-di-pulau-moyo-sumbawa-terancam&quot; target=&quot;_parent&quot;&gt;Diburu Warga Lokal, Kakaktua Jambul Kuning di Pulau Moyo Sumbawa Terancam Punah&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;REGIONAL&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:04 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://www.kompas.com/food/read/2023/06/07/190400875/resep-ayam-goreng-tulang-lunak-pakai-ayam-kampung&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Resep Ayam Goreng Tulang Lunak, Pakai Ayam Kampung&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/Su1dtZuLqiHtn6RXx_1lUzdH0EM=/0x0:1000x667/177x117/data/photo/2021/03/28/60605a5b2239c.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://www.kompas.com/food/read/2023/06/07/190400875/resep-ayam-goreng-tulang-lunak-pakai-ayam-kampung&quot; target=&quot;_parent&quot;&gt;Resep Ayam Goreng Tulang Lunak, Pakai Ayam Kampung&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;FOOD&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:04 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://regional.kompas.com/read/2023/06/07/190319078/pencuri-satroni-kedai-kopi-di-cirebon-lima-menit-ipad-dan-ponsel-raib&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Pencuri Satroni Kedai Kopi di Cirebon Lima Menit, iPad dan Ponsel Raib&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/NTqB3n2HYpPjiceDJQ8BfzSDvmU=/0x0:0x0/177x117/data/photo/2023/06/07/6480689261198.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://regional.kompas.com/read/2023/06/07/190319078/pencuri-satroni-kedai-kopi-di-cirebon-lima-menit-ipad-dan-ponsel-raib&quot; target=&quot;_parent&quot;&gt;Pencuri Satroni Kedai Kopi di Cirebon Lima Menit, iPad dan Ponsel Raib&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;REGIONAL&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:03 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://megapolitan.kompas.com/read/2023/06/07/19013501/kontraktor-diminta-bongkar-mandiri-tower-bts-di-kalideres-kasatpol-pp&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Kontraktor Diminta Bongkar Mandiri Tower BTS di Kalideres, Kasatpol PP: Kalau Tidak, Kami Bongkar&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/H-D3ReOsBYuxw6XToua26rwvw5U=/0x0:1024x683/177x117/data/photo/2023/06/07/64803f5fb3206.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://megapolitan.kompas.com/read/2023/06/07/19013501/kontraktor-diminta-bongkar-mandiri-tower-bts-di-kalideres-kasatpol-pp&quot; target=&quot;_parent&quot;&gt;Kontraktor Diminta Bongkar Mandiri Tower BTS di Kalideres, Kasatpol PP: Kalau Tidak, Kami Bongkar&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;NEWS&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:01 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://otomotif.kompas.com/read/2023/06/07/190100415/ban-mobil-listrik-harus-punya-spesifikasi-yang-berbeda-&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Ban Mobil Listrik Harus Punya Spesifikasi yang Berbeda &quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/Yv7TcMVR_4zcUHKG7d5dBGbMByA=/0x0:585x390/177x117/data/photo/2020/10/16/5f8967f0b7c9d.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://otomotif.kompas.com/read/2023/06/07/190100415/ban-mobil-listrik-harus-punya-spesifikasi-yang-berbeda-&quot; target=&quot;_parent&quot;&gt;Ban Mobil Listrik Harus Punya Spesifikasi yang Berbeda &lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;OTOMOTIF&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:01 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://tekno.kompas.com/read/2023/06/07/19010057/game-honkai-star-rail-dapat-update-perdana-apa-yang-baru-&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Game Honkai Star Rail Dapat Update Perdana, Apa yang Baru?&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/wdQmC0O1kPmBhB1QVKg4ug7gWSw=/0x0:1620x1080/177x117/data/photo/2023/06/07/647ffcd91de6e.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://tekno.kompas.com/read/2023/06/07/19010057/game-honkai-star-rail-dapat-update-perdana-apa-yang-baru-&quot; target=&quot;_parent&quot;&gt;Game Honkai Star Rail Dapat Update Perdana, Apa yang Baru?&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;TEKNO&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:01 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://app.komp.as/?link=https://www.kompas.id/baca/nusantara/2023/06/07/jumlah-pengunjung-di-pelataran-candi-borobudur-saat-perayaan-waisak-melebihi-kuota?apn=id.kompas.app&amp;amp;isi=1242195037&amp;amp;ibi=id.kompas.app&amp;amp;utm_source=external_kompascom&amp;amp;utm_medium=berita_terkini&amp;amp;utm_campaign=kompascom&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Jumlah Pengunjung di Pelataran Candi Borobudur Saat Waisak Melebihi Kuota&quot; class=&quot;lozad&quot; data-src=&quot;https://dmm0a91a1r04e.cloudfront.net/DBSJoUO0-ZoaHwhaXbcUM7Uv688=/300x169/https%3A%2F%2Fasset.kgnewsroom.com%2Fphoto%2Fpre%2F2023%2F06%2F07%2F8b34ef29-dacb-42a5-b7fd-fa0550ec6493_jpeg.jpeg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://app.komp.as/?link=https://www.kompas.id/baca/nusantara/2023/06/07/jumlah-pengunjung-di-pelataran-candi-borobudur-saat-perayaan-waisak-melebihi-kuota?apn=id.kompas.app&amp;amp;isi=1242195037&amp;amp;ibi=id.kompas.app&amp;amp;utm_source=external_kompascom&amp;amp;utm_medium=berita_terkini&amp;amp;utm_campaign=kompascom&quot; target=&quot;_parent&quot;&gt;Jumlah Pengunjung di Pelataran Candi Borobudur Saat Waisak Melebihi Kuota&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline color--premium&quot;&gt;KOMPAS.ID PREMIUM&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 16:51 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;,
+ &lt;div class=&quot;col-bs10-7&quot;&gt;
+ &lt;div class=&quot;title clearfix&quot;&gt;
+ &lt;div class=&quot;title__content&quot;&gt;Jelajahi&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;row col-offset-fluid clearfix&quot;&gt;
+ &lt;div class=&quot;col-bs12-3&quot;&gt;
+ &lt;ul class=&quot;discover__menu&quot;&gt;
+ &lt;li&gt;&lt;a href=&quot;https://www.kompas.com/&quot;&gt;Kompas.com&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href=&quot;https://bola.kompas.com/&quot;&gt;Bola&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href=&quot;https://tekno.kompas.com/&quot;&gt;Tekno&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href=&quot;https://otomotif.kompas.com/&quot;&gt;Otomotif&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href=&quot;https://internasional.kompas.com/&quot;&gt;Internasional&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href=&quot;https://news.kompas.com/&quot;&gt;News&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href=&quot;https://nasional.kompas.com/&quot;&gt;Nasional&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href=&quot;https://megapolitan.kompas.com/&quot;&gt;Megapolitan&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;col-bs12-3&quot;&gt;
+ &lt;ul class=&quot;discover__menu&quot;&gt;
+ &lt;li&gt;&lt;a href=&quot;https://entertainment.kompas.com/&quot;&gt;Entertainment&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href=&quot;https://money.kompas.com/&quot;&gt;Money&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href=&quot;https://sains.kompas.com/&quot;&gt;Sains&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href=&quot;https://regional.kompas.com/&quot;&gt;Regional&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href=&quot;https://properti.kompas.com/&quot;&gt;Properti&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href=&quot;https://lifestyle.kompas.com/&quot;&gt;Lifestyle&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href=&quot;https://travel.kompas.com/&quot;&gt;Travel&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href=&quot;https://edukasi.kompas.com/&quot;&gt;Edukasi&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;col-bs12-3&quot;&gt;
+ &lt;ul class=&quot;discover__menu&quot;&gt;
+ &lt;li&gt;&lt;a href=&quot;https://foto.kompas.com/&quot;&gt;FOTO&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href=&quot;https://vik.kompas.com/&quot;&gt;VIK&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href=&quot;https://ohayojepang.kompas.com/&quot;&gt;Ohayo Jepang&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href=&quot;https://pesonaindonesia.kompas.com/&quot;&gt;Pesona Indonesia&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href=&quot;https://kolom.kompas.com/&quot;&gt;Kolom&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href=&quot;https://jeo.kompas.com/&quot;&gt;JEO&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a class=&quot;-new&quot; href=&quot;https://video.kompas.com?source=jelajahi&quot;&gt;Video&lt;/a&gt;&lt;/li&gt;
+ &lt;!-- &lt;li&gt;&lt;a href=&quot;https://lestari.kompas.com&quot; class=&quot;-new&quot;&gt;Lestari&lt;/a&gt;&lt;/li&gt; --&gt;
+ &lt;li&gt;&lt;a href=&quot;https://lestari.kompas.com&quot;&gt;Lestari&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;col-bs12-3&quot;&gt;
+ &lt;ul class=&quot;discover__menu&quot;&gt;
+ &lt;li&gt;&lt;a href=&quot;https://play.kompas.com/&quot;&gt;Play&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href=&quot;https://indeks.kompas.com/terpopuler&quot;&gt;Artikel Terpopuler&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href=&quot;https://indeks.kompas.com/&quot;&gt;Artikel Terkini&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href=&quot;https://www.kompas.com/topik-pilihan&quot;&gt;Topik Pilihan&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href=&quot;https://indeks.kompas.com/headline&quot;&gt;Artikel Headline&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;,
+ &lt;div class=&quot;col-bs10-7&quot;&gt;
+ &lt;div class=&quot;text-right clearfix&quot;&gt;
+ &lt;div class=&quot;footer__newsletter clearfix&quot;&gt;
+ &lt;p class=&quot;footer__newsletter__title&quot;&gt;Dapatkan informasi dan insight pilihan redaksi Kompas.com&lt;/p&gt;
+ &lt;a class=&quot;footer__newsletter__link&quot; href=&quot;javascript:void(0)&quot; onclick=&quot;nwsLetterSubmit()&quot;&gt;
+ &lt;i class=&quot;icon-newsletter&quot;&gt;&lt;/i&gt; Daftarkan Email
+ 	                &lt;/a&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;footer__social clearfix&quot;&gt;
+ &lt;div class=&quot;social social--footer clearfix&quot;&gt;
+ &lt;link href=&quot;https://www.kompas.com&quot;/&gt;
+ &lt;div class=&quot;social__item&quot;&gt;
+ &lt;a class=&quot;social__link social__link--facebook&quot; href=&quot;https://www.facebook.com/kompascom&quot;&gt;
+ &lt;svg class=&quot;icon icon-facebook&quot; title=&quot;icon-facebook&quot;&gt;
+ &lt;use xlink:href=&quot;#icon-facebook&quot;&gt;&lt;/use&gt;
+ &lt;/svg&gt;
+ &lt;/a&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;social__item&quot;&gt;
+ &lt;a class=&quot;social__link social__link--twitter&quot; href=&quot;https://www.twitter.com/kompascom&quot;&gt;
+ &lt;svg class=&quot;icon icon-twitter&quot; title=&quot;icon-twitter&quot;&gt;
+ &lt;use xlink:href=&quot;#icon-twitter&quot;&gt;&lt;/use&gt;
+ &lt;/svg&gt;
+ &lt;/a&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;social__item&quot;&gt;
+ &lt;a class=&quot;social__link social__link--instagram&quot; href=&quot;https://instagram.com/kompascom&quot;&gt;
+ &lt;svg class=&quot;icon icon-instagram&quot; title=&quot;icon-instagram&quot;&gt;
+ &lt;use xlink:href=&quot;#icon-instagram&quot;&gt;&lt;/use&gt;
+ &lt;/svg&gt;
+ &lt;/a&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;social__item&quot;&gt;
+ &lt;a class=&quot;social__link social__link--line&quot; href=&quot;https://line.me/ti/p/%40kompas.com&quot;&gt;
+ &lt;svg class=&quot;icon icon-line&quot; title=&quot;icon-line&quot;&gt;
+ &lt;use xlink:href=&quot;#icon-line&quot;&gt;&lt;/use&gt;
+ &lt;/svg&gt;
+ &lt;/a&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;footer__download&quot;&gt;
+ &lt;a href=&quot;https://apps.apple.com/id/app/kompas-com-berita-terpercaya/id535483055&quot; target=&quot;_blank&quot;&gt;
+ &lt;div class=&quot;footer__download--app&quot;&gt;
+ &lt;img alt=&quot;apple store&quot; src=&quot;https://asset.kompas.com/data/2017/mobile/images/id-badge-appstore.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;/a&gt;
+ &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.ertanto.kompas.official&amp;amp;hl=en&amp;amp;gl=US&quot; target=&quot;_blank&quot;&gt;
+ &lt;div class=&quot;footer__download--google&quot;&gt;
+ &lt;img alt=&quot;google store&quot; src=&quot;https://asset.kompas.com/data/2017/mobile/images/id-badge-playstore.png&quot;/&gt;
+ &lt;/div&gt;
+ &lt;/a&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;footer__menu clearfix&quot;&gt;
+ &lt;div class=&quot;footer__menu__item footer__menu__item--inline&quot;&gt;
+ &lt;a class=&quot;footer__menu__link&quot; href=&quot;https://www.kompas.com/topik-pilihan/list/3361/kabar.palmerah&quot;&gt;Kabar Palmerah&lt;/a&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;footer__menu__item footer__menu__item--inline&quot;&gt;
+ &lt;a class=&quot;footer__menu__link&quot; href=&quot;https://inside.kompas.com/about-us&quot;&gt;About Us&lt;/a&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;footer__menu__item footer__menu__item--inline&quot;&gt;
+ &lt;a class=&quot;footer__menu__link&quot; href=&quot;http://www.meetkcm.com/&quot;&gt;Advertise&lt;/a&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;footer__menu__item footer__menu__item--inline&quot;&gt;
+ &lt;a class=&quot;footer__menu__link&quot; href=&quot;https://www.kgmedia.id/legal-privacy-id&quot;&gt;Kebijakan Data Pribadi&lt;/a&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;footer__menu__item footer__menu__item--inline&quot;&gt;
+ &lt;a class=&quot;footer__menu__link&quot; href=&quot;https://inside.kompas.com/pedoman&quot;&gt;Pedoman Media Siber&lt;/a&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;footer__menu__item footer__menu__item--inline&quot;&gt;
+ &lt;a class=&quot;footer__menu__link&quot; href=&quot;https://jobs.kompas.com&quot;&gt;Career&lt;/a&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;footer__menu__item footer__menu__item--inline&quot;&gt;
+ &lt;a class=&quot;footer__menu__link&quot; href=&quot;https://inside.kompas.com/about-us#meet&quot;&gt;Contact Us&lt;/a&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;footer__copy cpRight clearfix&quot;&gt;Copyright 2008 - 2023 PT. Kompas Cyber Media (&lt;a href=&quot;http://www.kompasgramedia.com/&quot; target=&quot;_blank&quot;&gt;Kompas Gramedia Digital Group&lt;/a&gt;). All rights reserved.&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;]
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">beautify</span><span class="o">.</span><span class="n">find_all</span><span class="p">(</span><span class="s1">&#39;div&#39;</span><span class="p">,{</span><span class="s1">&#39;class&#39;</span><span class="p">,</span><span class="s1">&#39;latest ga--latest mt2 clearfix&#39;</span><span class="p">})</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&lt;div class=&quot;latest ga--latest mt2 clearfix&quot;&gt;
+ &lt;div class=&quot;kcm__articleList&quot;&gt;
+ &lt;div id=&quot;div-gpt-ad-articlehighlight&quot;&gt;
+ &lt;script&gt;
+ googletag.cmd.push(function() { googletag.display(&#39;div-gpt-ad-articlehighlight&#39;); });
+ &lt;/script&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://regional.kompas.com/read/2023/06/07/191809278/seluruh-pekerja-tempat-cuci-mobil-di-salatiga-tuna-rungu-wicara-ini&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Seluruh Pekerja Tempat Cuci Mobil di Salatiga Tuna Rungu Wicara, Ini Penjelasan Pemilik&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/viU2nrSNvwbkjh6o7tppP5xKtYs=/0x0:0x0/177x117/data/photo/2023/06/07/648042a74659a.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://regional.kompas.com/read/2023/06/07/191809278/seluruh-pekerja-tempat-cuci-mobil-di-salatiga-tuna-rungu-wicara-ini&quot; target=&quot;_parent&quot;&gt;Seluruh Pekerja Tempat Cuci Mobil di Salatiga Tuna Rungu Wicara, Ini Penjelasan Pemilik&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;REGIONAL&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:18 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://umkm.kompas.com/read/2023/06/07/191800483/serba-serbi-cerita-makeup-artist-profesi-yang-belakangan-makin-digandrungi&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Serba-serbi Cerita &#39;Makeup Artist&#39;, Profesi yang Belakangan Makin Digandrungi&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/QDR1xaRGbEsq1E5_nd8cuo5m3k8=/0x101:1205x904/177x117/data/photo/2023/06/07/64805aec83de3.jpeg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://umkm.kompas.com/read/2023/06/07/191800483/serba-serbi-cerita-makeup-artist-profesi-yang-belakangan-makin-digandrungi&quot; target=&quot;_parent&quot;&gt;Serba-serbi Cerita &quot;Makeup Artist&quot;, Profesi yang Belakangan Makin Digandrungi&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;UMKM&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:18 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://regional.kompas.com/read/2023/06/07/191800778/kencan-ditolak-pria-di-riau-sebar-foto-tak-senonoh-teman-wanita-di-medsos&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Kencan Ditolak, Pria di Riau Sebar Foto Tak Senonoh Teman Wanita di Medsos&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/hYNuuMU3Y9nkHs5ZMbJ5ejUswEQ=/70x0:1142x715/177x117/data/photo/2020/01/11/5e1997325b174.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://regional.kompas.com/read/2023/06/07/191800778/kencan-ditolak-pria-di-riau-sebar-foto-tak-senonoh-teman-wanita-di-medsos&quot; target=&quot;_parent&quot;&gt;Kencan Ditolak, Pria di Riau Sebar Foto Tak Senonoh Teman Wanita di Medsos&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;REGIONAL&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:18 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://megapolitan.kompas.com/read/2023/06/07/19173421/warga-lihat-kepulan-asap-putih-sebelum-api-sambar-kabel-optik-di&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Warga Lihat Kepulan Asap Putih Sebelum Api Sambar Kabel Optik di Jatinegara&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/_PDz5HY_c7Z26tNIh9sbNcLak24=/0x0:0x0/177x117/data/photo/2023/06/07/64806531e39b9.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://megapolitan.kompas.com/read/2023/06/07/19173421/warga-lihat-kepulan-asap-putih-sebelum-api-sambar-kabel-optik-di&quot; target=&quot;_parent&quot;&gt;Warga Lihat Kepulan Asap Putih Sebelum Api Sambar Kabel Optik di Jatinegara&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;NEWS&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:17 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://app.komp.as/?link=https://www.kompas.id/baca/metro/2023/06/07/transjakarta-kaji-layanan-ke-bandara-soetta?apn=id.kompas.app&amp;amp;isi=1242195037&amp;amp;ibi=id.kompas.app&amp;amp;utm_source=external_kompascom&amp;amp;utm_medium=berita_terkini&amp;amp;utm_campaign=kompascom&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Transjakarta Kaji Layanan ke Bandara Soetta&quot; class=&quot;lozad&quot; data-src=&quot;https://dmm0a91a1r04e.cloudfront.net/RrJJ0EuzRhIlwNJpBfsByYGeZBk=/300x169/https%3A%2F%2Fasset.kgnewsroom.com%2Fphoto%2Fpre%2F2023%2F06%2F07%2Feb47ca4f-92b1-4ab3-a095-8ebc5f7d3781_jpg.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://app.komp.as/?link=https://www.kompas.id/baca/metro/2023/06/07/transjakarta-kaji-layanan-ke-bandara-soetta?apn=id.kompas.app&amp;amp;isi=1242195037&amp;amp;ibi=id.kompas.app&amp;amp;utm_source=external_kompascom&amp;amp;utm_medium=berita_terkini&amp;amp;utm_campaign=kompascom&quot; target=&quot;_parent&quot;&gt;Transjakarta Kaji Layanan ke Bandara Soetta&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline color--premium&quot;&gt;KOMPAS.ID PREMIUM&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 18:18 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;,
+ &lt;div class=&quot;latest ga--latest mt2 clearfix&quot;&gt;
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://www.kompas.com/hype/read/2023/06/07/191613466/mengenal-difki-khalif-sepupu-ariel-noah-yang-kini-berkarya-di-industri&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Mengenal Difki Khalif, Sepupu Ariel NOAH yang Kini Berkarya di Industri Musik&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/EcCFvRjhSpZ4SX98zz1j2ccd2eQ=/0x0:0x0/177x117/data/photo/2023/06/07/648070a1d8264.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://www.kompas.com/hype/read/2023/06/07/191613466/mengenal-difki-khalif-sepupu-ariel-noah-yang-kini-berkarya-di-industri&quot; target=&quot;_parent&quot;&gt;Mengenal Difki Khalif, Sepupu Ariel NOAH yang Kini Berkarya di Industri Musik&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;HYPE&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:16 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://www.kompas.com/tren/read/2023/06/07/191500865/5-kebiasaan-yang-membuat-anda-sulit-tidur-di-malam-hari&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;5 Kebiasaan yang Membuat Anda Sulit Tidur di Malam Hari&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/HtbzrpdONXXePd52LMbztXbmvh8=/2x2:1098x732/177x117/data/photo/2023/05/02/6450d2d1c0638.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://www.kompas.com/tren/read/2023/06/07/191500865/5-kebiasaan-yang-membuat-anda-sulit-tidur-di-malam-hari&quot; target=&quot;_parent&quot;&gt;5 Kebiasaan yang Membuat Anda Sulit Tidur di Malam Hari&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;TREN&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:15 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://megapolitan.kompas.com/read/2023/06/07/19131801/trotoar-di-depan-gedung-kedubes-as-akan-dibuka-secepatnya&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Trotoar di Depan Gedung Kedubes AS Akan Dibuka Secepatnya&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/ZJG_dhSIRLtRb-TwQ0zdST3LyWU=/0x0:0x0/177x117/data/photo/2023/06/06/647eecd54d6a5.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://megapolitan.kompas.com/read/2023/06/07/19131801/trotoar-di-depan-gedung-kedubes-as-akan-dibuka-secepatnya&quot; target=&quot;_parent&quot;&gt;Trotoar di Depan Gedung Kedubes AS Akan Dibuka Secepatnya&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;NEWS&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:13 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://www.kompas.com/edu/read/2023/06/07/191300471/tambah-4-kini-umy-punya-22-guru-besar&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Tambah 4, Kini UMY Punya 22 Guru Besar&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/1ms1s8A0Pg6zv_3Pk577u8UzLzY=/134x115:1040x719/177x117/data/photo/2021/07/24/60fbe87725449.jpeg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://www.kompas.com/edu/read/2023/06/07/191300471/tambah-4-kini-umy-punya-22-guru-besar&quot; target=&quot;_parent&quot;&gt;Tambah 4, Kini UMY Punya 22 Guru Besar&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;EDUKASI&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:13 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://www.kompas.com/hype/read/2023/06/07/191149266/heidi-klum-unggah-video-penampilan-putri-ariani-di-twitter&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Heidi Klum Unggah Video Penampilan Putri Ariani di Twitter&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/RZBFibfhjlVD2Ia5RDoCK5ASv9g=/134x18:1112x671/177x117/data/photo/2023/06/07/648006bdd946a.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://www.kompas.com/hype/read/2023/06/07/191149266/heidi-klum-unggah-video-penampilan-putri-ariani-di-twitter&quot; target=&quot;_parent&quot;&gt;Heidi Klum Unggah Video Penampilan Putri Ariani di Twitter&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;HYPE&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:11 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://www.kompas.com/homey/read/2023/06/07/191000476/pemutih-bisa-kedaluwarsa-ini-tanda-tandanya&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Pemutih Bisa Kedaluwarsa, Ini Tanda-tandanya&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/C1cliQxA5j5GlOq-Gk2Mb-wOEZM=/100x161:900x694/177x117/data/photo/2022/07/09/62c9652cbbda3.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://www.kompas.com/homey/read/2023/06/07/191000476/pemutih-bisa-kedaluwarsa-ini-tanda-tandanya&quot; target=&quot;_parent&quot;&gt;Pemutih Bisa Kedaluwarsa, Ini Tanda-tandanya&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;HOMEY&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:10 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://money.kompas.com/read/2023/06/07/191000126/mandiri-sekuritas-pertahankan-target-ihsg-tahun-ini-di-level-7.510&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Mandiri Sekuritas Pertahankan Target IHSG Tahun Ini di Level 7.510&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/ZrBjP-xJmGEvNNuw4GkGp-Dy6TI=/4x54:1280x905/177x117/data/photo/2023/02/20/63f33601c1ff2.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://money.kompas.com/read/2023/06/07/191000126/mandiri-sekuritas-pertahankan-target-ihsg-tahun-ini-di-level-7.510&quot; target=&quot;_parent&quot;&gt;Mandiri Sekuritas Pertahankan Target IHSG Tahun Ini di Level 7.510&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;MONEY&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:10 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;,
+ &lt;div class=&quot;latest ga--latest mt2 clearfix&quot;&gt;
+ &lt;!-- (ads.gate.latest) --&gt;
+ &lt;!-- (ads.gate.2.latest) --&gt;
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://lifestyle.kompas.com/read/2023/06/07/191000920/7-tips-penting-agar-berhubungan-seks-saat-menstruasi-lebih-nyaman&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;7 Tips Penting agar Berhubungan Seks saat Menstruasi Lebih Nyaman&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/fImy5Pfu4BR1I1mzkzzkmsaUtpo=/36x0:912x584/177x117/data/photo/2023/05/29/64747caccdc45.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://lifestyle.kompas.com/read/2023/06/07/191000920/7-tips-penting-agar-berhubungan-seks-saat-menstruasi-lebih-nyaman&quot; target=&quot;_parent&quot;&gt;7 Tips Penting agar Berhubungan Seks saat Menstruasi Lebih Nyaman&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;LIFESTYLE&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:10 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://megapolitan.kompas.com/read/2023/06/07/19065641/sebut-kemacetan-di-condet-tak-parah-lurah-arus-lalin-padat-merayap-tidak&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Sebut Kemacetan di Condet Tak Parah, Lurah: Arus Lalin Padat Merayap, Tidak Menumpuk&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/MpxR0zpsua3euEwBTzy5QZpwm1A=/0x0:0x0/177x117/data/photo/2023/06/07/6480616f066cf.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://megapolitan.kompas.com/read/2023/06/07/19065641/sebut-kemacetan-di-condet-tak-parah-lurah-arus-lalin-padat-merayap-tidak&quot; target=&quot;_parent&quot;&gt;Sebut Kemacetan di Condet Tak Parah, Lurah: Arus Lalin Padat Merayap, Tidak Menumpuk&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;NEWS&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:06 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://regional.kompas.com/read/2023/06/07/190630378/kisah-romo-katolik-lulus-s3-di-uin-sunan-kalijaga-yogyakarta-sempat-ragu&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Kisah Romo Katolik Lulus S3 di UIN Sunan Kalijaga Yogyakarta, Sempat Ragu Kuliah di Universitas Islam&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/Yz3fz1XbyAn2Mu20MJqizC6nDxg=/0x0:0x0/177x117/data/photo/2023/06/07/648069674fe66.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://regional.kompas.com/read/2023/06/07/190630378/kisah-romo-katolik-lulus-s3-di-uin-sunan-kalijaga-yogyakarta-sempat-ragu&quot; target=&quot;_parent&quot;&gt;Kisah Romo Katolik Lulus S3 di UIN Sunan Kalijaga Yogyakarta, Sempat Ragu Kuliah di Universitas Islam&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;REGIONAL&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:06 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://nasional.kompas.com/read/2023/06/07/19051861/masa-jabatan-pimpinan-kpk-diperpanjang-firli-bahuri-putusan-mk-adalah-undang&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Masa Jabatan Pimpinan KPK Diperpanjang, Firli Bahuri: Putusan MK adalah Undang-Undang&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/EDWpYg3YLz4Yjh9hWm8Ao0t8MLg=/0x0:0x0/177x117/data/photo/2023/06/07/648063ece765e.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://nasional.kompas.com/read/2023/06/07/19051861/masa-jabatan-pimpinan-kpk-diperpanjang-firli-bahuri-putusan-mk-adalah-undang&quot; target=&quot;_parent&quot;&gt;Masa Jabatan Pimpinan KPK Diperpanjang, Firli Bahuri: Putusan MK adalah Undang-Undang&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;NEWS&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:05 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://nasional.kompas.com/read/2023/06/07/19045641/polri-tidak-ada-aturan-bawahan-harus-setoran-uang-ke-atasan&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Polri: Tidak Ada Aturan Bawahan Harus Setoran Uang ke Atasan&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/ZaYDD4VSiml9kD5hKiT_hDR7TPY=/0x0:0x0/177x117/data/photo/2023/06/07/64803efecf474.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://nasional.kompas.com/read/2023/06/07/19045641/polri-tidak-ada-aturan-bawahan-harus-setoran-uang-ke-atasan&quot; target=&quot;_parent&quot;&gt;Polri: Tidak Ada Aturan Bawahan Harus Setoran Uang ke Atasan&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;NEWS&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:04 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://medan.kompas.com/read/2023/06/07/190439878/terlibat-jaringan-kurir-sabu-bersama-oknum-anggota-tni-2-warga-kalbar-divonis&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Terlibat Jaringan Kurir Sabu Bersama Oknum Anggota TNI, 2 Warga Kalbar Divonis Mati&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/9juIbSmouEwpgwIPvWo3Tb_mDH0=/0x0:0x0/177x117/data/photo/2023/06/07/6480700821a5d.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://medan.kompas.com/read/2023/06/07/190439878/terlibat-jaringan-kurir-sabu-bersama-oknum-anggota-tni-2-warga-kalbar-divonis&quot; target=&quot;_parent&quot;&gt;Terlibat Jaringan Kurir Sabu Bersama Oknum Anggota TNI, 2 Warga Kalbar Divonis Mati&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;REGIONAL&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:04 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://app.komp.as/?link=https://www.kompas.id/baca/gaya-hidup/2023/06/07/toyota-memanggil-kembali-veloz-avanza-dan-raize-karena-masalah-di-airbag?apn=id.kompas.app&amp;amp;isi=1242195037&amp;amp;ibi=id.kompas.app&amp;amp;utm_source=external_kompascom&amp;amp;utm_medium=berita_terkini&amp;amp;utm_campaign=kompascom&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Toyota Panggil Kembali Veloz, Avanza, dan Raize karena Masalah di ”Airbag”&quot; class=&quot;lozad&quot; data-src=&quot;https://dmm0a91a1r04e.cloudfront.net/W_2GT6fXSCNj0Z_ksMiIxEeG5Es=/300x169/https%3A%2F%2Fasset.kgnewsroom.com%2Fphoto%2Fpre%2F2023%2F06%2F07%2F9a88d9fc-fa21-4efd-aab0-e06edc1f32cc_jpg.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://app.komp.as/?link=https://www.kompas.id/baca/gaya-hidup/2023/06/07/toyota-memanggil-kembali-veloz-avanza-dan-raize-karena-masalah-di-airbag?apn=id.kompas.app&amp;amp;isi=1242195037&amp;amp;ibi=id.kompas.app&amp;amp;utm_source=external_kompascom&amp;amp;utm_medium=berita_terkini&amp;amp;utm_campaign=kompascom&quot; target=&quot;_parent&quot;&gt;Toyota Panggil Kembali Veloz, Avanza, dan Raize karena Masalah di ”Airbag”&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline color--premium&quot;&gt;KOMPAS.ID PREMIUM&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 16:53 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;,
+ &lt;div class=&quot;latest ga--latest mt2 clearfix&quot;&gt;
+ &lt;!-- (ads.gate.4.latest) --&gt;
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://regional.kompas.com/read/2023/06/07/190431278/diburu-warga-lokal-kakaktua-jambul-kuning-di-pulau-moyo-sumbawa-terancam&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Diburu Warga Lokal, Kakaktua Jambul Kuning di Pulau Moyo Sumbawa Terancam Punah&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/Vqz_qL53py78TPTh_6mvefYbYE0=/0x0:0x0/177x117/data/photo/2023/06/07/64806497889ad.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://regional.kompas.com/read/2023/06/07/190431278/diburu-warga-lokal-kakaktua-jambul-kuning-di-pulau-moyo-sumbawa-terancam&quot; target=&quot;_parent&quot;&gt;Diburu Warga Lokal, Kakaktua Jambul Kuning di Pulau Moyo Sumbawa Terancam Punah&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;REGIONAL&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:04 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://www.kompas.com/food/read/2023/06/07/190400875/resep-ayam-goreng-tulang-lunak-pakai-ayam-kampung&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Resep Ayam Goreng Tulang Lunak, Pakai Ayam Kampung&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/Su1dtZuLqiHtn6RXx_1lUzdH0EM=/0x0:1000x667/177x117/data/photo/2021/03/28/60605a5b2239c.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://www.kompas.com/food/read/2023/06/07/190400875/resep-ayam-goreng-tulang-lunak-pakai-ayam-kampung&quot; target=&quot;_parent&quot;&gt;Resep Ayam Goreng Tulang Lunak, Pakai Ayam Kampung&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;FOOD&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:04 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://regional.kompas.com/read/2023/06/07/190319078/pencuri-satroni-kedai-kopi-di-cirebon-lima-menit-ipad-dan-ponsel-raib&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Pencuri Satroni Kedai Kopi di Cirebon Lima Menit, iPad dan Ponsel Raib&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/NTqB3n2HYpPjiceDJQ8BfzSDvmU=/0x0:0x0/177x117/data/photo/2023/06/07/6480689261198.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://regional.kompas.com/read/2023/06/07/190319078/pencuri-satroni-kedai-kopi-di-cirebon-lima-menit-ipad-dan-ponsel-raib&quot; target=&quot;_parent&quot;&gt;Pencuri Satroni Kedai Kopi di Cirebon Lima Menit, iPad dan Ponsel Raib&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;REGIONAL&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:03 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://megapolitan.kompas.com/read/2023/06/07/19013501/kontraktor-diminta-bongkar-mandiri-tower-bts-di-kalideres-kasatpol-pp&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Kontraktor Diminta Bongkar Mandiri Tower BTS di Kalideres, Kasatpol PP: Kalau Tidak, Kami Bongkar&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/H-D3ReOsBYuxw6XToua26rwvw5U=/0x0:1024x683/177x117/data/photo/2023/06/07/64803f5fb3206.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://megapolitan.kompas.com/read/2023/06/07/19013501/kontraktor-diminta-bongkar-mandiri-tower-bts-di-kalideres-kasatpol-pp&quot; target=&quot;_parent&quot;&gt;Kontraktor Diminta Bongkar Mandiri Tower BTS di Kalideres, Kasatpol PP: Kalau Tidak, Kami Bongkar&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;NEWS&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:01 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://otomotif.kompas.com/read/2023/06/07/190100415/ban-mobil-listrik-harus-punya-spesifikasi-yang-berbeda-&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Ban Mobil Listrik Harus Punya Spesifikasi yang Berbeda &quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/Yv7TcMVR_4zcUHKG7d5dBGbMByA=/0x0:585x390/177x117/data/photo/2020/10/16/5f8967f0b7c9d.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://otomotif.kompas.com/read/2023/06/07/190100415/ban-mobil-listrik-harus-punya-spesifikasi-yang-berbeda-&quot; target=&quot;_parent&quot;&gt;Ban Mobil Listrik Harus Punya Spesifikasi yang Berbeda &lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;OTOMOTIF&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:01 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://tekno.kompas.com/read/2023/06/07/19010057/game-honkai-star-rail-dapat-update-perdana-apa-yang-baru-&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Game Honkai Star Rail Dapat Update Perdana, Apa yang Baru?&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/wdQmC0O1kPmBhB1QVKg4ug7gWSw=/0x0:1620x1080/177x117/data/photo/2023/06/07/647ffcd91de6e.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://tekno.kompas.com/read/2023/06/07/19010057/game-honkai-star-rail-dapat-update-perdana-apa-yang-baru-&quot; target=&quot;_parent&quot;&gt;Game Honkai Star Rail Dapat Update Perdana, Apa yang Baru?&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;TEKNO&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:01 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://app.komp.as/?link=https://www.kompas.id/baca/nusantara/2023/06/07/jumlah-pengunjung-di-pelataran-candi-borobudur-saat-perayaan-waisak-melebihi-kuota?apn=id.kompas.app&amp;amp;isi=1242195037&amp;amp;ibi=id.kompas.app&amp;amp;utm_source=external_kompascom&amp;amp;utm_medium=berita_terkini&amp;amp;utm_campaign=kompascom&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Jumlah Pengunjung di Pelataran Candi Borobudur Saat Waisak Melebihi Kuota&quot; class=&quot;lozad&quot; data-src=&quot;https://dmm0a91a1r04e.cloudfront.net/DBSJoUO0-ZoaHwhaXbcUM7Uv688=/300x169/https%3A%2F%2Fasset.kgnewsroom.com%2Fphoto%2Fpre%2F2023%2F06%2F07%2F8b34ef29-dacb-42a5-b7fd-fa0550ec6493_jpeg.jpeg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://app.komp.as/?link=https://www.kompas.id/baca/nusantara/2023/06/07/jumlah-pengunjung-di-pelataran-candi-borobudur-saat-perayaan-waisak-melebihi-kuota?apn=id.kompas.app&amp;amp;isi=1242195037&amp;amp;ibi=id.kompas.app&amp;amp;utm_source=external_kompascom&amp;amp;utm_medium=berita_terkini&amp;amp;utm_campaign=kompascom&quot; target=&quot;_parent&quot;&gt;Jumlah Pengunjung di Pelataran Candi Borobudur Saat Waisak Melebihi Kuota&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline color--premium&quot;&gt;KOMPAS.ID PREMIUM&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 16:51 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;]
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">beautify</span><span class="o">.</span><span class="n">find_all</span><span class="p">(</span><span class="s1">&#39;div&#39;</span><span class="p">,{</span><span class="s1">&#39;class&#39;</span><span class="p">,</span><span class="s1">&#39;article__list clearfix&#39;</span><span class="p">})</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://regional.kompas.com/read/2023/06/07/191809278/seluruh-pekerja-tempat-cuci-mobil-di-salatiga-tuna-rungu-wicara-ini&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Seluruh Pekerja Tempat Cuci Mobil di Salatiga Tuna Rungu Wicara, Ini Penjelasan Pemilik&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/viU2nrSNvwbkjh6o7tppP5xKtYs=/0x0:0x0/177x117/data/photo/2023/06/07/648042a74659a.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://regional.kompas.com/read/2023/06/07/191809278/seluruh-pekerja-tempat-cuci-mobil-di-salatiga-tuna-rungu-wicara-ini&quot; target=&quot;_parent&quot;&gt;Seluruh Pekerja Tempat Cuci Mobil di Salatiga Tuna Rungu Wicara, Ini Penjelasan Pemilik&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;REGIONAL&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:18 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;,
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://umkm.kompas.com/read/2023/06/07/191800483/serba-serbi-cerita-makeup-artist-profesi-yang-belakangan-makin-digandrungi&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Serba-serbi Cerita &#39;Makeup Artist&#39;, Profesi yang Belakangan Makin Digandrungi&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/QDR1xaRGbEsq1E5_nd8cuo5m3k8=/0x101:1205x904/177x117/data/photo/2023/06/07/64805aec83de3.jpeg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://umkm.kompas.com/read/2023/06/07/191800483/serba-serbi-cerita-makeup-artist-profesi-yang-belakangan-makin-digandrungi&quot; target=&quot;_parent&quot;&gt;Serba-serbi Cerita &quot;Makeup Artist&quot;, Profesi yang Belakangan Makin Digandrungi&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;UMKM&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:18 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;,
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://regional.kompas.com/read/2023/06/07/191800778/kencan-ditolak-pria-di-riau-sebar-foto-tak-senonoh-teman-wanita-di-medsos&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Kencan Ditolak, Pria di Riau Sebar Foto Tak Senonoh Teman Wanita di Medsos&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/hYNuuMU3Y9nkHs5ZMbJ5ejUswEQ=/70x0:1142x715/177x117/data/photo/2020/01/11/5e1997325b174.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://regional.kompas.com/read/2023/06/07/191800778/kencan-ditolak-pria-di-riau-sebar-foto-tak-senonoh-teman-wanita-di-medsos&quot; target=&quot;_parent&quot;&gt;Kencan Ditolak, Pria di Riau Sebar Foto Tak Senonoh Teman Wanita di Medsos&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;REGIONAL&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:18 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;,
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://megapolitan.kompas.com/read/2023/06/07/19173421/warga-lihat-kepulan-asap-putih-sebelum-api-sambar-kabel-optik-di&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Warga Lihat Kepulan Asap Putih Sebelum Api Sambar Kabel Optik di Jatinegara&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/_PDz5HY_c7Z26tNIh9sbNcLak24=/0x0:0x0/177x117/data/photo/2023/06/07/64806531e39b9.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://megapolitan.kompas.com/read/2023/06/07/19173421/warga-lihat-kepulan-asap-putih-sebelum-api-sambar-kabel-optik-di&quot; target=&quot;_parent&quot;&gt;Warga Lihat Kepulan Asap Putih Sebelum Api Sambar Kabel Optik di Jatinegara&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;NEWS&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:17 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;,
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://app.komp.as/?link=https://www.kompas.id/baca/metro/2023/06/07/transjakarta-kaji-layanan-ke-bandara-soetta?apn=id.kompas.app&amp;amp;isi=1242195037&amp;amp;ibi=id.kompas.app&amp;amp;utm_source=external_kompascom&amp;amp;utm_medium=berita_terkini&amp;amp;utm_campaign=kompascom&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Transjakarta Kaji Layanan ke Bandara Soetta&quot; class=&quot;lozad&quot; data-src=&quot;https://dmm0a91a1r04e.cloudfront.net/RrJJ0EuzRhIlwNJpBfsByYGeZBk=/300x169/https%3A%2F%2Fasset.kgnewsroom.com%2Fphoto%2Fpre%2F2023%2F06%2F07%2Feb47ca4f-92b1-4ab3-a095-8ebc5f7d3781_jpg.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://app.komp.as/?link=https://www.kompas.id/baca/metro/2023/06/07/transjakarta-kaji-layanan-ke-bandara-soetta?apn=id.kompas.app&amp;amp;isi=1242195037&amp;amp;ibi=id.kompas.app&amp;amp;utm_source=external_kompascom&amp;amp;utm_medium=berita_terkini&amp;amp;utm_campaign=kompascom&quot; target=&quot;_parent&quot;&gt;Transjakarta Kaji Layanan ke Bandara Soetta&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline color--premium&quot;&gt;KOMPAS.ID PREMIUM&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 18:18 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;,
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://www.kompas.com/hype/read/2023/06/07/191613466/mengenal-difki-khalif-sepupu-ariel-noah-yang-kini-berkarya-di-industri&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Mengenal Difki Khalif, Sepupu Ariel NOAH yang Kini Berkarya di Industri Musik&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/EcCFvRjhSpZ4SX98zz1j2ccd2eQ=/0x0:0x0/177x117/data/photo/2023/06/07/648070a1d8264.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://www.kompas.com/hype/read/2023/06/07/191613466/mengenal-difki-khalif-sepupu-ariel-noah-yang-kini-berkarya-di-industri&quot; target=&quot;_parent&quot;&gt;Mengenal Difki Khalif, Sepupu Ariel NOAH yang Kini Berkarya di Industri Musik&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;HYPE&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:16 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;,
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://www.kompas.com/tren/read/2023/06/07/191500865/5-kebiasaan-yang-membuat-anda-sulit-tidur-di-malam-hari&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;5 Kebiasaan yang Membuat Anda Sulit Tidur di Malam Hari&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/HtbzrpdONXXePd52LMbztXbmvh8=/2x2:1098x732/177x117/data/photo/2023/05/02/6450d2d1c0638.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://www.kompas.com/tren/read/2023/06/07/191500865/5-kebiasaan-yang-membuat-anda-sulit-tidur-di-malam-hari&quot; target=&quot;_parent&quot;&gt;5 Kebiasaan yang Membuat Anda Sulit Tidur di Malam Hari&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;TREN&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:15 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;,
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://megapolitan.kompas.com/read/2023/06/07/19131801/trotoar-di-depan-gedung-kedubes-as-akan-dibuka-secepatnya&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Trotoar di Depan Gedung Kedubes AS Akan Dibuka Secepatnya&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/ZJG_dhSIRLtRb-TwQ0zdST3LyWU=/0x0:0x0/177x117/data/photo/2023/06/06/647eecd54d6a5.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://megapolitan.kompas.com/read/2023/06/07/19131801/trotoar-di-depan-gedung-kedubes-as-akan-dibuka-secepatnya&quot; target=&quot;_parent&quot;&gt;Trotoar di Depan Gedung Kedubes AS Akan Dibuka Secepatnya&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;NEWS&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:13 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;,
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://www.kompas.com/edu/read/2023/06/07/191300471/tambah-4-kini-umy-punya-22-guru-besar&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Tambah 4, Kini UMY Punya 22 Guru Besar&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/1ms1s8A0Pg6zv_3Pk577u8UzLzY=/134x115:1040x719/177x117/data/photo/2021/07/24/60fbe87725449.jpeg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://www.kompas.com/edu/read/2023/06/07/191300471/tambah-4-kini-umy-punya-22-guru-besar&quot; target=&quot;_parent&quot;&gt;Tambah 4, Kini UMY Punya 22 Guru Besar&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;EDUKASI&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:13 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;,
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://www.kompas.com/hype/read/2023/06/07/191149266/heidi-klum-unggah-video-penampilan-putri-ariani-di-twitter&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Heidi Klum Unggah Video Penampilan Putri Ariani di Twitter&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/RZBFibfhjlVD2Ia5RDoCK5ASv9g=/134x18:1112x671/177x117/data/photo/2023/06/07/648006bdd946a.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://www.kompas.com/hype/read/2023/06/07/191149266/heidi-klum-unggah-video-penampilan-putri-ariani-di-twitter&quot; target=&quot;_parent&quot;&gt;Heidi Klum Unggah Video Penampilan Putri Ariani di Twitter&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;HYPE&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:11 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;,
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://www.kompas.com/homey/read/2023/06/07/191000476/pemutih-bisa-kedaluwarsa-ini-tanda-tandanya&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Pemutih Bisa Kedaluwarsa, Ini Tanda-tandanya&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/C1cliQxA5j5GlOq-Gk2Mb-wOEZM=/100x161:900x694/177x117/data/photo/2022/07/09/62c9652cbbda3.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://www.kompas.com/homey/read/2023/06/07/191000476/pemutih-bisa-kedaluwarsa-ini-tanda-tandanya&quot; target=&quot;_parent&quot;&gt;Pemutih Bisa Kedaluwarsa, Ini Tanda-tandanya&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;HOMEY&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:10 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;,
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://money.kompas.com/read/2023/06/07/191000126/mandiri-sekuritas-pertahankan-target-ihsg-tahun-ini-di-level-7.510&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Mandiri Sekuritas Pertahankan Target IHSG Tahun Ini di Level 7.510&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/ZrBjP-xJmGEvNNuw4GkGp-Dy6TI=/4x54:1280x905/177x117/data/photo/2023/02/20/63f33601c1ff2.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://money.kompas.com/read/2023/06/07/191000126/mandiri-sekuritas-pertahankan-target-ihsg-tahun-ini-di-level-7.510&quot; target=&quot;_parent&quot;&gt;Mandiri Sekuritas Pertahankan Target IHSG Tahun Ini di Level 7.510&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;MONEY&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:10 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;,
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://lifestyle.kompas.com/read/2023/06/07/191000920/7-tips-penting-agar-berhubungan-seks-saat-menstruasi-lebih-nyaman&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;7 Tips Penting agar Berhubungan Seks saat Menstruasi Lebih Nyaman&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/fImy5Pfu4BR1I1mzkzzkmsaUtpo=/36x0:912x584/177x117/data/photo/2023/05/29/64747caccdc45.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://lifestyle.kompas.com/read/2023/06/07/191000920/7-tips-penting-agar-berhubungan-seks-saat-menstruasi-lebih-nyaman&quot; target=&quot;_parent&quot;&gt;7 Tips Penting agar Berhubungan Seks saat Menstruasi Lebih Nyaman&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;LIFESTYLE&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:10 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;,
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://megapolitan.kompas.com/read/2023/06/07/19065641/sebut-kemacetan-di-condet-tak-parah-lurah-arus-lalin-padat-merayap-tidak&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Sebut Kemacetan di Condet Tak Parah, Lurah: Arus Lalin Padat Merayap, Tidak Menumpuk&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/MpxR0zpsua3euEwBTzy5QZpwm1A=/0x0:0x0/177x117/data/photo/2023/06/07/6480616f066cf.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://megapolitan.kompas.com/read/2023/06/07/19065641/sebut-kemacetan-di-condet-tak-parah-lurah-arus-lalin-padat-merayap-tidak&quot; target=&quot;_parent&quot;&gt;Sebut Kemacetan di Condet Tak Parah, Lurah: Arus Lalin Padat Merayap, Tidak Menumpuk&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;NEWS&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:06 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;,
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://regional.kompas.com/read/2023/06/07/190630378/kisah-romo-katolik-lulus-s3-di-uin-sunan-kalijaga-yogyakarta-sempat-ragu&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Kisah Romo Katolik Lulus S3 di UIN Sunan Kalijaga Yogyakarta, Sempat Ragu Kuliah di Universitas Islam&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/Yz3fz1XbyAn2Mu20MJqizC6nDxg=/0x0:0x0/177x117/data/photo/2023/06/07/648069674fe66.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://regional.kompas.com/read/2023/06/07/190630378/kisah-romo-katolik-lulus-s3-di-uin-sunan-kalijaga-yogyakarta-sempat-ragu&quot; target=&quot;_parent&quot;&gt;Kisah Romo Katolik Lulus S3 di UIN Sunan Kalijaga Yogyakarta, Sempat Ragu Kuliah di Universitas Islam&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;REGIONAL&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:06 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;,
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://nasional.kompas.com/read/2023/06/07/19051861/masa-jabatan-pimpinan-kpk-diperpanjang-firli-bahuri-putusan-mk-adalah-undang&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Masa Jabatan Pimpinan KPK Diperpanjang, Firli Bahuri: Putusan MK adalah Undang-Undang&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/EDWpYg3YLz4Yjh9hWm8Ao0t8MLg=/0x0:0x0/177x117/data/photo/2023/06/07/648063ece765e.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://nasional.kompas.com/read/2023/06/07/19051861/masa-jabatan-pimpinan-kpk-diperpanjang-firli-bahuri-putusan-mk-adalah-undang&quot; target=&quot;_parent&quot;&gt;Masa Jabatan Pimpinan KPK Diperpanjang, Firli Bahuri: Putusan MK adalah Undang-Undang&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;NEWS&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:05 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;,
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://nasional.kompas.com/read/2023/06/07/19045641/polri-tidak-ada-aturan-bawahan-harus-setoran-uang-ke-atasan&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Polri: Tidak Ada Aturan Bawahan Harus Setoran Uang ke Atasan&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/ZaYDD4VSiml9kD5hKiT_hDR7TPY=/0x0:0x0/177x117/data/photo/2023/06/07/64803efecf474.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://nasional.kompas.com/read/2023/06/07/19045641/polri-tidak-ada-aturan-bawahan-harus-setoran-uang-ke-atasan&quot; target=&quot;_parent&quot;&gt;Polri: Tidak Ada Aturan Bawahan Harus Setoran Uang ke Atasan&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;NEWS&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:04 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;,
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://medan.kompas.com/read/2023/06/07/190439878/terlibat-jaringan-kurir-sabu-bersama-oknum-anggota-tni-2-warga-kalbar-divonis&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Terlibat Jaringan Kurir Sabu Bersama Oknum Anggota TNI, 2 Warga Kalbar Divonis Mati&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/9juIbSmouEwpgwIPvWo3Tb_mDH0=/0x0:0x0/177x117/data/photo/2023/06/07/6480700821a5d.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://medan.kompas.com/read/2023/06/07/190439878/terlibat-jaringan-kurir-sabu-bersama-oknum-anggota-tni-2-warga-kalbar-divonis&quot; target=&quot;_parent&quot;&gt;Terlibat Jaringan Kurir Sabu Bersama Oknum Anggota TNI, 2 Warga Kalbar Divonis Mati&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;REGIONAL&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:04 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;,
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://app.komp.as/?link=https://www.kompas.id/baca/gaya-hidup/2023/06/07/toyota-memanggil-kembali-veloz-avanza-dan-raize-karena-masalah-di-airbag?apn=id.kompas.app&amp;amp;isi=1242195037&amp;amp;ibi=id.kompas.app&amp;amp;utm_source=external_kompascom&amp;amp;utm_medium=berita_terkini&amp;amp;utm_campaign=kompascom&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Toyota Panggil Kembali Veloz, Avanza, dan Raize karena Masalah di ”Airbag”&quot; class=&quot;lozad&quot; data-src=&quot;https://dmm0a91a1r04e.cloudfront.net/W_2GT6fXSCNj0Z_ksMiIxEeG5Es=/300x169/https%3A%2F%2Fasset.kgnewsroom.com%2Fphoto%2Fpre%2F2023%2F06%2F07%2F9a88d9fc-fa21-4efd-aab0-e06edc1f32cc_jpg.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://app.komp.as/?link=https://www.kompas.id/baca/gaya-hidup/2023/06/07/toyota-memanggil-kembali-veloz-avanza-dan-raize-karena-masalah-di-airbag?apn=id.kompas.app&amp;amp;isi=1242195037&amp;amp;ibi=id.kompas.app&amp;amp;utm_source=external_kompascom&amp;amp;utm_medium=berita_terkini&amp;amp;utm_campaign=kompascom&quot; target=&quot;_parent&quot;&gt;Toyota Panggil Kembali Veloz, Avanza, dan Raize karena Masalah di ”Airbag”&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline color--premium&quot;&gt;KOMPAS.ID PREMIUM&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 16:53 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;,
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://regional.kompas.com/read/2023/06/07/190431278/diburu-warga-lokal-kakaktua-jambul-kuning-di-pulau-moyo-sumbawa-terancam&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Diburu Warga Lokal, Kakaktua Jambul Kuning di Pulau Moyo Sumbawa Terancam Punah&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/Vqz_qL53py78TPTh_6mvefYbYE0=/0x0:0x0/177x117/data/photo/2023/06/07/64806497889ad.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://regional.kompas.com/read/2023/06/07/190431278/diburu-warga-lokal-kakaktua-jambul-kuning-di-pulau-moyo-sumbawa-terancam&quot; target=&quot;_parent&quot;&gt;Diburu Warga Lokal, Kakaktua Jambul Kuning di Pulau Moyo Sumbawa Terancam Punah&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;REGIONAL&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:04 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;,
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://www.kompas.com/food/read/2023/06/07/190400875/resep-ayam-goreng-tulang-lunak-pakai-ayam-kampung&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Resep Ayam Goreng Tulang Lunak, Pakai Ayam Kampung&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/Su1dtZuLqiHtn6RXx_1lUzdH0EM=/0x0:1000x667/177x117/data/photo/2021/03/28/60605a5b2239c.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://www.kompas.com/food/read/2023/06/07/190400875/resep-ayam-goreng-tulang-lunak-pakai-ayam-kampung&quot; target=&quot;_parent&quot;&gt;Resep Ayam Goreng Tulang Lunak, Pakai Ayam Kampung&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;FOOD&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:04 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;,
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://regional.kompas.com/read/2023/06/07/190319078/pencuri-satroni-kedai-kopi-di-cirebon-lima-menit-ipad-dan-ponsel-raib&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Pencuri Satroni Kedai Kopi di Cirebon Lima Menit, iPad dan Ponsel Raib&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/NTqB3n2HYpPjiceDJQ8BfzSDvmU=/0x0:0x0/177x117/data/photo/2023/06/07/6480689261198.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://regional.kompas.com/read/2023/06/07/190319078/pencuri-satroni-kedai-kopi-di-cirebon-lima-menit-ipad-dan-ponsel-raib&quot; target=&quot;_parent&quot;&gt;Pencuri Satroni Kedai Kopi di Cirebon Lima Menit, iPad dan Ponsel Raib&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;REGIONAL&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:03 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;,
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://megapolitan.kompas.com/read/2023/06/07/19013501/kontraktor-diminta-bongkar-mandiri-tower-bts-di-kalideres-kasatpol-pp&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Kontraktor Diminta Bongkar Mandiri Tower BTS di Kalideres, Kasatpol PP: Kalau Tidak, Kami Bongkar&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/H-D3ReOsBYuxw6XToua26rwvw5U=/0x0:1024x683/177x117/data/photo/2023/06/07/64803f5fb3206.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://megapolitan.kompas.com/read/2023/06/07/19013501/kontraktor-diminta-bongkar-mandiri-tower-bts-di-kalideres-kasatpol-pp&quot; target=&quot;_parent&quot;&gt;Kontraktor Diminta Bongkar Mandiri Tower BTS di Kalideres, Kasatpol PP: Kalau Tidak, Kami Bongkar&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;NEWS&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:01 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;,
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://otomotif.kompas.com/read/2023/06/07/190100415/ban-mobil-listrik-harus-punya-spesifikasi-yang-berbeda-&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Ban Mobil Listrik Harus Punya Spesifikasi yang Berbeda &quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/Yv7TcMVR_4zcUHKG7d5dBGbMByA=/0x0:585x390/177x117/data/photo/2020/10/16/5f8967f0b7c9d.jpg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://otomotif.kompas.com/read/2023/06/07/190100415/ban-mobil-listrik-harus-punya-spesifikasi-yang-berbeda-&quot; target=&quot;_parent&quot;&gt;Ban Mobil Listrik Harus Punya Spesifikasi yang Berbeda &lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;OTOMOTIF&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:01 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;,
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://tekno.kompas.com/read/2023/06/07/19010057/game-honkai-star-rail-dapat-update-perdana-apa-yang-baru-&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Game Honkai Star Rail Dapat Update Perdana, Apa yang Baru?&quot; class=&quot;lozad&quot; data-src=&quot;https://asset.kompas.com/crops/wdQmC0O1kPmBhB1QVKg4ug7gWSw=/0x0:1620x1080/177x117/data/photo/2023/06/07/647ffcd91de6e.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://tekno.kompas.com/read/2023/06/07/19010057/game-honkai-star-rail-dapat-update-perdana-apa-yang-baru-&quot; target=&quot;_parent&quot;&gt;Game Honkai Star Rail Dapat Update Perdana, Apa yang Baru?&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline&quot;&gt;TEKNO&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 19:01 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;,
+ &lt;div class=&quot;article__list clearfix&quot;&gt;
+ &lt;div class=&quot;article__list__asset clearfix&quot;&gt;
+ &lt;div class=&quot;article__asset&quot;&gt;&lt;a href=&quot;https://app.komp.as/?link=https://www.kompas.id/baca/nusantara/2023/06/07/jumlah-pengunjung-di-pelataran-candi-borobudur-saat-perayaan-waisak-melebihi-kuota?apn=id.kompas.app&amp;amp;isi=1242195037&amp;amp;ibi=id.kompas.app&amp;amp;utm_source=external_kompascom&amp;amp;utm_medium=berita_terkini&amp;amp;utm_campaign=kompascom&quot; target=&quot;_parent&quot;&gt;&lt;img alt=&quot;Jumlah Pengunjung di Pelataran Candi Borobudur Saat Waisak Melebihi Kuota&quot; class=&quot;lozad&quot; data-src=&quot;https://dmm0a91a1r04e.cloudfront.net/DBSJoUO0-ZoaHwhaXbcUM7Uv688=/300x169/https%3A%2F%2Fasset.kgnewsroom.com%2Fphoto%2Fpre%2F2023%2F06%2F07%2F8b34ef29-dacb-42a5-b7fd-fa0550ec6493_jpeg.jpeg&quot;/&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;article__list__title&quot;&gt;
+ &lt;h3 class=&quot;article__title article__title--medium&quot;&gt;&lt;a class=&quot;article__link&quot; href=&quot;https://app.komp.as/?link=https://www.kompas.id/baca/nusantara/2023/06/07/jumlah-pengunjung-di-pelataran-candi-borobudur-saat-perayaan-waisak-melebihi-kuota?apn=id.kompas.app&amp;amp;isi=1242195037&amp;amp;ibi=id.kompas.app&amp;amp;utm_source=external_kompascom&amp;amp;utm_medium=berita_terkini&amp;amp;utm_campaign=kompascom&quot; target=&quot;_parent&quot;&gt;Jumlah Pengunjung di Pelataran Candi Borobudur Saat Waisak Melebihi Kuota&lt;/a&gt;&lt;/h3&gt;&lt;/div&gt;
+ &lt;div class=&quot;article__list__info&quot;&gt;
+ &lt;div class=&quot;article__subtitle article__subtitle--inline color--premium&quot;&gt;KOMPAS.ID PREMIUM&lt;/div&gt;
+ &lt;div class=&quot;article__date&quot;&gt;07/06/2023, 16:51 WIB&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;]
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">wadahjenis</span> <span class="o">=</span> <span class="n">beautify</span><span class="o">.</span><span class="n">find_all</span><span class="p">(</span><span class="s1">&#39;div&#39;</span><span class="p">,{</span><span class="s1">&#39;class&#39;</span><span class="p">,</span><span class="s1">&#39;article__subtitle article__subtitle--inline&#39;</span><span class="p">})</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">wadahdate</span> <span class="o">=</span> <span class="n">beautify</span><span class="o">.</span><span class="n">find_all</span><span class="p">(</span><span class="s1">&#39;div&#39;</span><span class="p">,{</span><span class="s1">&#39;class&#39;</span><span class="p">,</span><span class="s1">&#39;article__date&#39;</span><span class="p">})</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">wadahj</span> <span class="o">=</span> <span class="n">beautify</span><span class="o">.</span><span class="n">find_all</span><span class="p">(</span><span class="s1">&#39;h3&#39;</span><span class="p">,{</span><span class="s1">&#39;class&#39;</span><span class="p">,</span><span class="s1">&#39;article__title article__title--medium&#39;</span><span class="p">})</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">wadahl</span> <span class="o">=</span> <span class="n">beautify</span><span class="o">.</span><span class="n">find_all</span><span class="p">(</span><span class="s1">&#39;a&#39;</span><span class="p">,{</span><span class="s1">&#39;class&#39;</span><span class="p">,</span><span class="s1">&#39;article__link&#39;</span><span class="p">})</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">wadahj</span><span class="p">:</span>
+    <span class="n">judul</span><span class="o">=</span><span class="n">i</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;a&#39;</span><span class="p">,{</span><span class="s1">&#39;class&#39;</span><span class="p">,</span><span class="s1">&#39;article__link&#39;</span><span class="p">})</span><span class="o">.</span><span class="n">text</span>
+    <span class="n">link</span><span class="o">=</span><span class="n">i</span><span class="o">.</span><span class="n">a</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;href&#39;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">judul</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">link</span><span class="p">)</span>
+    <span class="n">berita_list</span><span class="o">.</span><span class="n">append</span><span class="p">([</span><span class="n">judul</span><span class="p">,</span><span class="n">link</span><span class="p">])</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Seluruh Pekerja Tempat Cuci Mobil di Salatiga Tuna Rungu Wicara, Ini Penjelasan Pemilik
+https://regional.kompas.com/read/2023/06/07/191809278/seluruh-pekerja-tempat-cuci-mobil-di-salatiga-tuna-rungu-wicara-ini
+Serba-serbi Cerita &quot;Makeup Artist&quot;, Profesi yang Belakangan Makin Digandrungi
+https://umkm.kompas.com/read/2023/06/07/191800483/serba-serbi-cerita-makeup-artist-profesi-yang-belakangan-makin-digandrungi
+Kencan Ditolak, Pria di Riau Sebar Foto Tak Senonoh Teman Wanita di Medsos
+https://regional.kompas.com/read/2023/06/07/191800778/kencan-ditolak-pria-di-riau-sebar-foto-tak-senonoh-teman-wanita-di-medsos
+Warga Lihat Kepulan Asap Putih Sebelum Api Sambar Kabel Optik di Jatinegara
+https://megapolitan.kompas.com/read/2023/06/07/19173421/warga-lihat-kepulan-asap-putih-sebelum-api-sambar-kabel-optik-di
+Transjakarta Kaji Layanan ke Bandara Soetta
+https://app.komp.as/?link=https://www.kompas.id/baca/metro/2023/06/07/transjakarta-kaji-layanan-ke-bandara-soetta?apn=id.kompas.app&amp;isi=1242195037&amp;ibi=id.kompas.app&amp;utm_source=external_kompascom&amp;utm_medium=berita_terkini&amp;utm_campaign=kompascom
+Serma Riadi Kembali Bawa Senyuman ke Anak-anak Buru Selatan
+https://www.kgnow.com/watch/639954/serma-riadi-kembali-bawa-senyuman-ke-anak-anak-buru-selatan?utm_source=KOMPASCOM&amp;position=wp_terkini__carousel_player_1
+Mengenal Difki Khalif, Sepupu Ariel NOAH yang Kini Berkarya di Industri Musik
+https://www.kompas.com/hype/read/2023/06/07/191613466/mengenal-difki-khalif-sepupu-ariel-noah-yang-kini-berkarya-di-industri
+5 Kebiasaan yang Membuat Anda Sulit Tidur di Malam Hari
+https://www.kompas.com/tren/read/2023/06/07/191500865/5-kebiasaan-yang-membuat-anda-sulit-tidur-di-malam-hari
+Trotoar di Depan Gedung Kedubes AS Akan Dibuka Secepatnya
+https://megapolitan.kompas.com/read/2023/06/07/19131801/trotoar-di-depan-gedung-kedubes-as-akan-dibuka-secepatnya
+Tambah 4, Kini UMY Punya 22 Guru Besar
+https://www.kompas.com/edu/read/2023/06/07/191300471/tambah-4-kini-umy-punya-22-guru-besar
+Heidi Klum Unggah Video Penampilan Putri Ariani di Twitter
+https://www.kompas.com/hype/read/2023/06/07/191149266/heidi-klum-unggah-video-penampilan-putri-ariani-di-twitter
+Pemutih Bisa Kedaluwarsa, Ini Tanda-tandanya
+https://www.kompas.com/homey/read/2023/06/07/191000476/pemutih-bisa-kedaluwarsa-ini-tanda-tandanya
+Mandiri Sekuritas Pertahankan Target IHSG Tahun Ini di Level 7.510
+https://money.kompas.com/read/2023/06/07/191000126/mandiri-sekuritas-pertahankan-target-ihsg-tahun-ini-di-level-7.510
+7 Tips Penting agar Berhubungan Seks saat Menstruasi Lebih Nyaman
+https://lifestyle.kompas.com/read/2023/06/07/191000920/7-tips-penting-agar-berhubungan-seks-saat-menstruasi-lebih-nyaman
+Sebut Kemacetan di Condet Tak Parah, Lurah: Arus Lalin Padat Merayap, Tidak Menumpuk
+https://megapolitan.kompas.com/read/2023/06/07/19065641/sebut-kemacetan-di-condet-tak-parah-lurah-arus-lalin-padat-merayap-tidak
+Kisah Romo Katolik Lulus S3 di UIN Sunan Kalijaga Yogyakarta, Sempat Ragu Kuliah di Universitas Islam
+https://regional.kompas.com/read/2023/06/07/190630378/kisah-romo-katolik-lulus-s3-di-uin-sunan-kalijaga-yogyakarta-sempat-ragu
+Masa Jabatan Pimpinan KPK Diperpanjang, Firli Bahuri: Putusan MK adalah Undang-Undang
+https://nasional.kompas.com/read/2023/06/07/19051861/masa-jabatan-pimpinan-kpk-diperpanjang-firli-bahuri-putusan-mk-adalah-undang
+Polri: Tidak Ada Aturan Bawahan Harus Setoran Uang ke Atasan
+https://nasional.kompas.com/read/2023/06/07/19045641/polri-tidak-ada-aturan-bawahan-harus-setoran-uang-ke-atasan
+Terlibat Jaringan Kurir Sabu Bersama Oknum Anggota TNI, 2 Warga Kalbar Divonis Mati
+https://medan.kompas.com/read/2023/06/07/190439878/terlibat-jaringan-kurir-sabu-bersama-oknum-anggota-tni-2-warga-kalbar-divonis
+Toyota Panggil Kembali Veloz, Avanza, dan Raize karena Masalah di ”Airbag”
+https://app.komp.as/?link=https://www.kompas.id/baca/gaya-hidup/2023/06/07/toyota-memanggil-kembali-veloz-avanza-dan-raize-karena-masalah-di-airbag?apn=id.kompas.app&amp;isi=1242195037&amp;ibi=id.kompas.app&amp;utm_source=external_kompascom&amp;utm_medium=berita_terkini&amp;utm_campaign=kompascom
+Respons Menteri PUPR Basuki Hadimuljono Masuk Daftar Cawapres Ganjar
+https://www.kgnow.com/watch/639556/respons-menteri-pupr-basuki-hadimuljono-masuk-daftar-cawapres-ganjar?utm_source=KOMPASCOM&amp;position=wp_terkini__player_2
+Diburu Warga Lokal, Kakaktua Jambul Kuning di Pulau Moyo Sumbawa Terancam Punah
+https://regional.kompas.com/read/2023/06/07/190431278/diburu-warga-lokal-kakaktua-jambul-kuning-di-pulau-moyo-sumbawa-terancam
+Resep Ayam Goreng Tulang Lunak, Pakai Ayam Kampung
+https://www.kompas.com/food/read/2023/06/07/190400875/resep-ayam-goreng-tulang-lunak-pakai-ayam-kampung
+Pencuri Satroni Kedai Kopi di Cirebon Lima Menit, iPad dan Ponsel Raib
+https://regional.kompas.com/read/2023/06/07/190319078/pencuri-satroni-kedai-kopi-di-cirebon-lima-menit-ipad-dan-ponsel-raib
+Kontraktor Diminta Bongkar Mandiri Tower BTS di Kalideres, Kasatpol PP: Kalau Tidak, Kami Bongkar
+https://megapolitan.kompas.com/read/2023/06/07/19013501/kontraktor-diminta-bongkar-mandiri-tower-bts-di-kalideres-kasatpol-pp
+Ban Mobil Listrik Harus Punya Spesifikasi yang Berbeda 
+https://otomotif.kompas.com/read/2023/06/07/190100415/ban-mobil-listrik-harus-punya-spesifikasi-yang-berbeda-
+Game Honkai Star Rail Dapat Update Perdana, Apa yang Baru?
+https://tekno.kompas.com/read/2023/06/07/19010057/game-honkai-star-rail-dapat-update-perdana-apa-yang-baru-
+Jumlah Pengunjung di Pelataran Candi Borobudur Saat Waisak Melebihi Kuota
+https://app.komp.as/?link=https://www.kompas.id/baca/nusantara/2023/06/07/jumlah-pengunjung-di-pelataran-candi-borobudur-saat-perayaan-waisak-melebihi-kuota?apn=id.kompas.app&amp;isi=1242195037&amp;ibi=id.kompas.app&amp;utm_source=external_kompascom&amp;utm_medium=berita_terkini&amp;utm_campaign=kompascom
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">berita</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">berita_list</span><span class="p">,</span><span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;judul&quot;</span><span class="p">,</span><span class="s2">&quot;link&quot;</span><span class="p">])</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">berita</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html">
+  <div id="df-d5f6e36e-09ab-4a18-ace1-b6c4f288a57d">
+    <div class="colab-df-container">
+      <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>judul</th>
+      <th>link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Seluruh Pekerja Tempat Cuci Mobil di Salatiga ...</td>
+      <td>https://regional.kompas.com/read/2023/06/07/19...</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Serba-serbi Cerita "Makeup Artist", Profesi ya...</td>
+      <td>https://umkm.kompas.com/read/2023/06/07/191800...</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Kencan Ditolak, Pria di Riau Sebar Foto Tak Se...</td>
+      <td>https://regional.kompas.com/read/2023/06/07/19...</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Warga Lihat Kepulan Asap Putih Sebelum Api Sam...</td>
+      <td>https://megapolitan.kompas.com/read/2023/06/07...</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Transjakarta Kaji Layanan ke Bandara Soetta</td>
+      <td>https://app.komp.as/?link=https://www.kompas.i...</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Serma Riadi Kembali Bawa Senyuman ke Anak-anak...</td>
+      <td>https://www.kgnow.com/watch/639954/serma-riadi...</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Mengenal Difki Khalif, Sepupu Ariel NOAH yang ...</td>
+      <td>https://www.kompas.com/hype/read/2023/06/07/19...</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>5 Kebiasaan yang Membuat Anda Sulit Tidur di M...</td>
+      <td>https://www.kompas.com/tren/read/2023/06/07/19...</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Trotoar di Depan Gedung Kedubes AS Akan Dibuka...</td>
+      <td>https://megapolitan.kompas.com/read/2023/06/07...</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Tambah 4, Kini UMY Punya 22 Guru Besar</td>
+      <td>https://www.kompas.com/edu/read/2023/06/07/191...</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>Heidi Klum Unggah Video Penampilan Putri Arian...</td>
+      <td>https://www.kompas.com/hype/read/2023/06/07/19...</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>Pemutih Bisa Kedaluwarsa, Ini Tanda-tandanya</td>
+      <td>https://www.kompas.com/homey/read/2023/06/07/1...</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>Mandiri Sekuritas Pertahankan Target IHSG Tahu...</td>
+      <td>https://money.kompas.com/read/2023/06/07/19100...</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>7 Tips Penting agar Berhubungan Seks saat Mens...</td>
+      <td>https://lifestyle.kompas.com/read/2023/06/07/1...</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>Sebut Kemacetan di Condet Tak Parah, Lurah: Ar...</td>
+      <td>https://megapolitan.kompas.com/read/2023/06/07...</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>Kisah Romo Katolik Lulus S3 di UIN Sunan Kalij...</td>
+      <td>https://regional.kompas.com/read/2023/06/07/19...</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>Masa Jabatan Pimpinan KPK Diperpanjang, Firli ...</td>
+      <td>https://nasional.kompas.com/read/2023/06/07/19...</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>Polri: Tidak Ada Aturan Bawahan Harus Setoran ...</td>
+      <td>https://nasional.kompas.com/read/2023/06/07/19...</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>Terlibat Jaringan Kurir Sabu Bersama Oknum Ang...</td>
+      <td>https://medan.kompas.com/read/2023/06/07/19043...</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>Toyota Panggil Kembali Veloz, Avanza, dan Raiz...</td>
+      <td>https://app.komp.as/?link=https://www.kompas.i...</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>Respons Menteri PUPR Basuki Hadimuljono Masuk ...</td>
+      <td>https://www.kgnow.com/watch/639556/respons-men...</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>Diburu Warga Lokal, Kakaktua Jambul Kuning di ...</td>
+      <td>https://regional.kompas.com/read/2023/06/07/19...</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>Resep Ayam Goreng Tulang Lunak, Pakai Ayam Kam...</td>
+      <td>https://www.kompas.com/food/read/2023/06/07/19...</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>Pencuri Satroni Kedai Kopi di Cirebon Lima Men...</td>
+      <td>https://regional.kompas.com/read/2023/06/07/19...</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>Kontraktor Diminta Bongkar Mandiri Tower BTS d...</td>
+      <td>https://megapolitan.kompas.com/read/2023/06/07...</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>Ban Mobil Listrik Harus Punya Spesifikasi yang...</td>
+      <td>https://otomotif.kompas.com/read/2023/06/07/19...</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>Game Honkai Star Rail Dapat Update Perdana, Ap...</td>
+      <td>https://tekno.kompas.com/read/2023/06/07/19010...</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>Jumlah Pengunjung di Pelataran Candi Borobudur...</td>
+      <td>https://app.komp.as/?link=https://www.kompas.i...</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+      <button class="colab-df-convert" onclick="convertToInteractive('df-d5f6e36e-09ab-4a18-ace1-b6c4f288a57d')"
+              title="Convert this dataframe to an interactive table."
+              style="display:none;">
+        
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+       width="24px">
+    <path d="M0 0h24v24H0V0z" fill="none"/>
+    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+  </svg>
+      </button>
+      
+  <style>
+    .colab-df-container {
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+      <script>
+        const buttonEl =
+          document.querySelector('#df-d5f6e36e-09ab-4a18-ace1-b6c4f288a57d button.colab-df-convert');
+        buttonEl.style.display =
+          google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+        async function convertToInteractive(key) {
+          const element = document.querySelector('#df-d5f6e36e-09ab-4a18-ace1-b6c4f288a57d');
+          const dataTable =
+            await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                     [key], {});
+          if (!dataTable) return;
+
+          const docLinkHtml = 'Like what you see? Visit the ' +
+            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+            + ' to learn more about interactive tables.';
+          element.innerHTML = '';
+          dataTable['output_type'] = 'display_data';
+          await google.colab.output.renderOutput(dataTable, element);
+          const docLink = document.createElement('div');
+          docLink.innerHTML = docLinkHtml;
+          element.appendChild(docLink);
+        }
+      </script>
+    </div>
+  </div>
+  </div></div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">berita</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s2">&quot;Crawling berita.csv&quot;</span><span class="p">,</span><span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+                <footer class="bd-footer-article">
+                  
+<div class="footer-article-items footer-article__inner">
+  
+    <div class="footer-article-item"><!-- Previous / next buttons -->
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="Pta.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">&lt;no title&gt;</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="markdown-notebooks.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Notebooks with MyST Markdown</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div></div>
+  
+</div>
+
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="simple visible nav section-nav flex-column">
+</ul>
+
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By The Jupyter Book Community
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  <p class="copyright">
+    
+      © Copyright 2022.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
